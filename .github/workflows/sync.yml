@@ -1,7 +1,8 @@
 name: sync-upstream
+
 on:
   schedule:
-    - cron: "17 */6 * * *" # 每 6 小时
+    - cron: "17 */6 * * *" # every 6 hours
   workflow_dispatch:
     inputs:
       force_update:
@@ -19,9 +20,8 @@ jobs:
       UPSTREAM: https://github.com/SukkaLab/ruleset.skk.moe.git
       UPSTREAM_BRANCH: master
 
-      # Guard 参数
-      THRESHOLD: "0.5"           # 50%
-      MIN_CHANGED_LINES: "30"    # 增强点 2：最小变更行数门槛
+      THRESHOLD: "0.5"
+      MIN_CHANGED_LINES: "30"
       FORCE_UPDATE: ${{ github.event.inputs.force_update || 'false' }}
 
     steps:
@@ -31,11 +31,11 @@ jobs:
 
       - name: Add upstream & fetch
         run: |
-          git remote add upstream "${UPSTREAM}" || true
+          set -euo pipefail
+          git remote add upstream "${UPSTREAM}" 2>/dev/null || true
           git fetch upstream "${UPSTREAM_BRANCH}" --prune
 
-      - name: Selective sync with per-file guard + README + Job Summary
-        shell: bash
+      - name: Selective sync (per-file guard) + README + Job Summary
         run: |
           set -euo pipefail
 
@@ -48,7 +48,7 @@ jobs:
           echo "threshold=${THRESHOLD}"
           echo "min_changed_lines=${MIN_CHANGED_LINES}"
 
-          # 排除非规则产物（你要“镜像全部规则文件”，所以这里只排除仓库元信息）
+          # Exclude repo meta only (mirror all rules files)
           EXCLUDE_PATHS=(
             ".github"
             ".gitignore"
@@ -70,16 +70,18 @@ jobs:
           tmp="$(mktemp)"
           git diff --name-status "$BASE" "$NEW" > "$tmp" || true
 
-          skipped_report=""
           skipped_count=0
           updated_count=0
           added_count=0
           keep_deleted_count=0
 
+          # store skipped lines to a file (avoid echo -e portability issues)
+          : > skipped.md
+
           while IFS=$'\t' read -r st a b; do
             [[ -z "${st:-}" ]] && continue
 
-            # rename：Rxxx old new
+            # rename: Rxxx old new
             if [[ "$st" == R* ]]; then
               old="$a"; new="$b"
               if is_excluded "$new"; then
@@ -99,7 +101,6 @@ jobs:
 
             case "$st" in
               A)
-                # 新文件默认直接加入（否则会被 50% 规则永远挡住）
                 mkdir -p "$(dirname "$path")"
                 git show "$NEW:$path" > "$path"
                 git add "$path"
@@ -114,7 +115,6 @@ jobs:
                   continue
                 fi
 
-                # numstat: added deleted filename
                 line="$(git diff --numstat "$BASE" "$NEW" -- "$path" | head -n 1 || true)"
                 add="$(awk '{print $1}' <<<"$line")"
                 del="$(awk '{print $2}' <<<"$line")"
@@ -133,11 +133,11 @@ jobs:
                 changed=$((add + del))
                 ratio="$(awk -v c="$changed" -v d="$denom" 'BEGIN{printf "%.4f", c/d}')"
 
-                # 增强点 2：ratio>阈值 且 changed>=MIN_CHANGED_LINES 才跳过
                 if awk -v r="$ratio" -v t="$THRESHOLD" 'BEGIN{exit !(r>t)}' \
                    && [[ "$changed" -ge "$MIN_CHANGED_LINES" ]]; then
                   skipped_count=$((skipped_count+1))
-                  skipped_report+="- \`$path\` (ratio=$ratio, changed=$changed, add=$add, del=$del, base_lines=$old_lines, new_lines=$new_lines)\n"
+                  printf -- "- \`%s\` (ratio=%s, changed=%s, add=%s, del=%s, base_lines=%s, new_lines=%s)\n" \
+                    "$path" "$ratio" "$changed" "$add" "$del" "$old_lines" "$new_lines" >> skipped.md
                   echo "::warning file=$path::Skipped (ratio=$ratio > $THRESHOLD AND changed=$changed >= $MIN_CHANGED_LINES)"
                 else
                   mkdir -p "$(dirname "$path")"
@@ -147,7 +147,6 @@ jobs:
                 fi
                 ;;
               D)
-                # 上游删除：默认不删（保守，避免客户端突然 404）
                 keep_deleted_count=$((keep_deleted_count+1))
                 echo "::notice file=$path::Upstream deleted; keeping local copy (conservative)."
                 ;;
@@ -155,121 +154,82 @@ jobs:
                 ;;
             esac
           done < "$tmp"
-
           rm -f "$tmp"
 
-          # 生成报告（用于 README 与 Job Summary）
           now="$(date -u +'%Y-%m-%d %H:%M:%SZ')"
-          if [[ -z "$skipped_report" ]]; then
-            skipped_report="(none)\n"
+          if [[ ! -s skipped.md ]]; then
+            echo "(none)" > skipped.md
           fi
 
-          report=$(cat <<EOF
-# 生成报告（用于 README 与 Job Summary）
-now="$(date -u +'%Y-%m-%d %H:%M:%SZ')"
-if [[ -z "$skipped_report" ]]; then
-  skipped_report="(none)\n"
-fi
+          # Build report.md (no heredoc, no env passing)
+          {
+            echo "## Auto Update Guard Report"
+            echo ""
+            echo "- Updated from: \`$BASE\`"
+            echo "- Upstream head: \`$NEW\`"
+            echo "- Time (UTC): $now"
+            echo "- Threshold: ${THRESHOLD}"
+            echo "- Min changed lines: ${MIN_CHANGED_LINES}"
+            echo "- Force update: ${FORCE_UPDATE}"
+            echo "- Updated files: ${updated_count}"
+            echo "- Added files: ${added_count}"
+            echo "- Upstream deleted but kept: ${keep_deleted_count}"
+            echo "- Skipped files (ratio>${THRESHOLD} AND changed>=${MIN_CHANGED_LINES}): ${skipped_count}"
+            echo ""
+            echo "### Skipped file list"
+            cat skipped.md
+          } > report.md
 
-report=$(cat <<EOF
-## Auto Update Guard Report
+          # Enhancement 1: Job Summary (safe with set -u)
+          SUMMARY_FILE="${GITHUB_STEP_SUMMARY:-}"
+          if [[ -n "$SUMMARY_FILE" ]]; then
+            {
+              echo "## Mirror Sync Summary"
+              echo ""
+              echo "- Base: \`$BASE\`"
+              echo "- Upstream: \`$NEW\`"
+              echo "- Time (UTC): $now"
+              echo "- Threshold: ${THRESHOLD}"
+              echo "- Min changed lines: ${MIN_CHANGED_LINES}"
+              echo "- Force update: ${FORCE_UPDATE}"
+              echo ""
+              echo "| Item | Count |"
+              echo "|---|---:|"
+              echo "| Updated files | ${updated_count} |"
+              echo "| Added files | ${added_count} |"
+              echo "| Upstream deleted but kept | ${keep_deleted_count} |"
+              echo "| Skipped files | ${skipped_count} |"
+              echo ""
+              echo "### Skipped file list"
+              echo ""
+              cat skipped.md
+            } >> "$SUMMARY_FILE"
+          else
+            echo "::notice::GITHUB_STEP_SUMMARY not set; printing summary to log."
+            cat report.md
+          fi
 
-- Updated from: \`$BASE\`
-- Upstream head: \`$NEW\`
-- Time (UTC): $now
-- Threshold: ${THRESHOLD}
-- Min changed lines: ${MIN_CHANGED_LINES}
-- Force update: ${FORCE_UPDATE}
-- Updated files: ${updated_count}
-- Added files: ${added_count}
-- Upstream deleted but kept: ${keep_deleted_count}
-- Skipped files (ratio>${THRESHOLD} AND changed>=${MIN_CHANGED_LINES}): ${skipped_count}
-
-### Skipped file list
-$skipped_report
-EOF
-)
-
-# --- 增强点 1：写入 GitHub Actions Job Summary（兼容无 GITHUB_STEP_SUMMARY 的环境） ---
-SUMMARY_FILE="${GITHUB_STEP_SUMMARY:-}"
-if [[ -z "$SUMMARY_FILE" ]]; then
-  # fallback：本地/特殊 runner 没有 summary 文件，就写临时文件并输出到日志
-  SUMMARY_FILE="$(mktemp)"
-  echo "::notice::GITHUB_STEP_SUMMARY not set, writing summary to log instead."
-fi
-
-{
-  echo "## Mirror Sync Summary"
-  echo ""
-  echo "- Base: \`$BASE\`"
-  echo "- Upstream: \`$NEW\`"
-  echo "- Time (UTC): $now"
-  echo "- Threshold: ${THRESHOLD}"
-  echo "- Min changed lines: ${MIN_CHANGED_LINES}"
-  echo "- Force update: ${FORCE_UPDATE}"
-  echo ""
-  echo "| Item | Count |"
-  echo "|---|---:|"
-  echo "| Updated files | ${updated_count} |"
-  echo "| Added files | ${added_count} |"
-  echo "| Upstream deleted but kept | ${keep_deleted_count} |"
-  echo "| Skipped files | ${skipped_count} |"
-  echo ""
-  echo "### Skipped file list"
-  echo ""
-  # 用 printf 更稳，避免 echo -e 在不同 shell 上行为不一致
-  printf '%b' "$skipped_report"
-} >> "$SUMMARY_FILE"
-
-# 如果是 fallback 文件，把内容打印出来方便你在日志里看
-if [[ -z "${GITHUB_STEP_SUMMARY:-}" ]]; then
-  echo "----- BEGIN SUMMARY -----"
-  cat "$SUMMARY_FILE"
-  echo "----- END SUMMARY -----"
-fi
-
-# --- 写入/更新 README 固定块（把 REPORT 正确传给 python） ---
-[[ -f README.md ]] || echo "# ruleset mirror" > README.md
-
-REPORT="$report" python3 - <<'PY'
-import re, pathlib, os
-p = pathlib.Path("README.md")
-txt = p.read_text(encoding="utf-8", errors="ignore")
-begin = "<!-- BEGIN_GUARD_REPORT -->"
-end   = "<!-- END_GUARD_REPORT -->"
-report = os.environ["REPORT"]
-
-block = f"{begin}\n{report}\n{end}"
-if begin in txt and end in txt:
-    txt = re.sub(re.escape(begin)+r".*?"+re.escape(end), block, txt, flags=re.S)
-else:
-    txt = txt.rstrip() + "\n\n" + block + "\n"
-p.write_text(txt, encoding="utf-8")
-PY
-
-git add README.md
-
-          # --- 写入/更新 README 固定块 ---
+          # Update README guard block (from report.md)
           [[ -f README.md ]] || echo "# ruleset mirror" > README.md
 
           python3 - <<'PY'
-import re, pathlib, os
-p = pathlib.Path("README.md")
-txt = p.read_text(encoding="utf-8", errors="ignore")
-begin = "<!-- BEGIN_GUARD_REPORT -->"
-end   = "<!-- END_GUARD_REPORT -->"
-report = os.environ["REPORT"]
+          import re, pathlib
+          report = pathlib.Path("report.md").read_text(encoding="utf-8", errors="ignore")
+          p = pathlib.Path("README.md")
+          txt = p.read_text(encoding="utf-8", errors="ignore")
+          begin = "<!-- BEGIN_GUARD_REPORT -->"
+          end   = "<!-- END_GUARD_REPORT -->"
+          block = f"{begin}\n{report}\n{end}"
+          if begin in txt and end in txt:
+              txt = re.sub(re.escape(begin)+r".*?"+re.escape(end), block, txt, flags=re.S)
+          else:
+              txt = txt.rstrip() + "\n\n" + block + "\n"
+          p.write_text(txt, encoding="utf-8")
+          PY
 
-block = f"{begin}\n{report}\n{end}"
-if begin in txt and end in txt:
-    txt = re.sub(re.escape(begin)+r".*?"+re.escape(end), block, txt, flags=re.S)
-else:
-    txt = txt.rstrip() + "\n\n" + block + "\n"
-p.write_text(txt, encoding="utf-8")
-PY
-          REPORT="$report" git add README.md
+          git add README.md
 
-          # 没有任何变更就退出
+          # If nothing changed, stop
           if [[ -z "$(git status --porcelain)" ]]; then
             echo "No changes to commit."
             exit 0
@@ -281,4 +241,5 @@ PY
 
       - name: Push to origin
         run: |
+          set -euo pipefail
           git push origin "${{ github.ref_name }}"

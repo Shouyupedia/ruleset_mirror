@@ -21,7 +21,7 @@ jobs:
       UPSTREAM_BRANCH: master
 
       THRESHOLD: "0.5"
-      MIN_CHANGED_LINES: "30"
+      MIN_CHANGED_LINES: "10"
       FORCE_UPDATE: ${{ github.event.inputs.force_update || 'false' }}
 
     steps:

@@ -1,0 +1,19 @@
+name: jsDelivr Purge Cache
+
+on:
+  push:
+    branches:
+      - main  # 只有当 main 分支有变动时才触发，你可以改为你的主分支名
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr Cache
+        run: |
+          # 请将下面的 USERNAME、REPO 替换为你自己的 GitHub 用户名和仓库名
+          # 如果你想刷新特定的文件，可以修改文件路径
+          curl -i https://purge.jsdelivr.net/gh/${{ github.repository_owner }}/${{ github.event.repository.name }}@main/
+          
+          # 提示：如果你有具体的文件，例如 dist/main.js，可以写成：
+          # curl -i https://purge.jsdelivr.net/gh/${{ github.repository_owner }}/${{ github.event.repository.name }}@main/dist/main.js

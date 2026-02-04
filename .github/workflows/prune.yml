@@ -1,0 +1,102 @@
+name: prune-orphan-files
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "list or delete"
+        required: true
+        default: "list"
+      path_prefix:
+        description: "Only prune under this prefix (e.g., List/). Empty = whole repo"
+        required: false
+        default: "List/"
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    env:
+      UPSTREAM: https://github.com/SukkaLab/ruleset.skk.moe.git
+      UPSTREAM_BRANCH: master
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch upstream
+        run: |
+          set -euo pipefail
+          git remote add upstream "${UPSTREAM}" 2>/dev/null || true
+          git fetch upstream "${UPSTREAM_BRANCH}" --prune
+
+      - name: Find orphan files (exist in mirror but not in upstream)
+        id: find
+        run: |
+          set -euo pipefail
+          BASE="$(git rev-parse HEAD)"
+          NEW="$(git rev-parse upstream/${UPSTREAM_BRANCH})"
+          echo "BASE=$BASE" >> "$GITHUB_OUTPUT"
+          echo "NEW=$NEW" >> "$GITHUB_OUTPUT"
+
+          prefix="${{ github.event.inputs.path_prefix }}"
+          mode="${{ github.event.inputs.mode }}"
+
+          # 列出当前仓库文件（排除元信息）
+          find . -type f \
+            ! -path "./.git/*" \
+            ! -path "./.github/*" \
+            ! -name "README.md" \
+            ! -name "LICENSE" \
+            | sed 's|^\./||' \
+            | ( [[ -n "$prefix" ]] && grep -E "^${prefix}" || cat ) \
+            > local_files.txt
+
+          # 列出上游 NEW 版本文件
+          git ls-tree -r --name-only "$NEW" > upstream_files.txt
+          ( [[ -n "$prefix" ]] && grep -E "^${prefix}" upstream_files.txt || true ) > upstream_files2.txt
+          mv upstream_files2.txt upstream_files.txt
+
+          # local - upstream = orphan
+          comm -23 <(sort local_files.txt) <(sort upstream_files.txt) > orphan.txt || true
+
+          echo "Orphan count: $(wc -l < orphan.txt)"
+          {
+            echo "## Orphan files (local exists, upstream missing)"
+            echo ""
+            echo "- Base: \`$BASE\`"
+            echo "- Upstream: \`$NEW\`"
+            echo "- Prefix: \`${prefix}\`"
+            echo "- Count: $(wc -l < orphan.txt)"
+            echo ""
+            echo "### List"
+            echo ""
+            if [[ -s orphan.txt ]]; then
+              sed 's/^/- `/' orphan.txt | sed 's/$/`/'
+            else
+              echo "(none)"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [[ "$mode" == "delete" && -s orphan.txt ]]; then
+            while IFS= read -r f; do
+              rm -f "$f"
+            done < orphan.txt
+          fi
+
+      - name: Commit deletions
+        if: github.event.inputs.mode == 'delete'
+        run: |
+          set -euo pipefail
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No deletions to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: prune orphan files"
+          git push origin "${{ github.ref_name }}"

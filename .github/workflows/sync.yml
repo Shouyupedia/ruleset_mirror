@@ -7,7 +7,7 @@ on:
     inputs:
       force_update:
         description: "Force update ALL files (ignore guard)"
-        required: true
+        required: false
         default: "false"
 
 permissions:

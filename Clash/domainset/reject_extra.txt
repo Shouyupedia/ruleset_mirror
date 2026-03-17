@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-03-17T05:56:34.858Z
-# Size: 84836
+# Last Updated: 2026-03-17T08:54:46.982Z
+# Size: 84846
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -18458,6 +18458,7 @@
 +.h24.news
 +.seniului.v6.navy
 +.digitalcoachpro.name
++.yellowquartzkr.name
 +.techadvisorpro.name
 +.growthbuilder.name
 +.smokyshadecj.name
@@ -18466,6 +18467,9 @@
 +.gildedrosens.name
 +.zippylakeri.name
 +.simpleswap.name
++.raremosssr.name
++.calmdockpb.name
++.airypathsq.name
 +.key.sexymovie.name
 +.icyhivemy.name
 +.drimolen.name
@@ -24119,6 +24123,7 @@
 +.gdg4yih5.xyz
 +.gaupsaur.xyz
 +.gatdolmt.xyz
++.g9o63y6m.xyz
 +.fxmoulyw.xyz
 +.fungibly.xyz
 +.fstmoney.xyz
@@ -45948,6 +45953,7 @@ otn.samsungcloudcdn.com
 +.quatangtrianff.com
 +.quatang-shopee.com
 +.qualitymortify.com
++.pxjwhfafyxlnak.com
 +.1.www.putridgadzooks.com
 +.putproudlyhowl.com
 +.puteldestebook.com
@@ -47408,7 +47414,6 @@ otn.samsungcloudcdn.com
 +.track.zulumarketing.com
 +.zp-gzs2-yts-a.com
 +.zlib-official.com
-+.zhcxopfhzrfrc.com
 +.zeroredirect8.com
 +.zeroredirect5.com
 +.zeroredirect2.com
@@ -51336,6 +51341,7 @@ otn.samsungcloudcdn.com
 +.giborboxr-il.com
 +.ghettoformed.com
 +.ggjcswb4rln4.com
++.ggalfrwregfk.com
 +.widget.getyourguide.com
 +.getsmartlook.com
 +.getnexuscard.com
@@ -55790,6 +55796,7 @@ gpm.samsungqbe.com
 +.rewardpoll.com
 +.revprotect.com
 +.revmasters.com
++.revivemore.com
 +.retharitus.com
 +.retargetly.com
 +.refer.resume-now.com
@@ -59770,6 +59777,7 @@ gpm.samsungqbe.com
 +.oasc04.247.realmedia.com
 +.reallkeys.com
 +.ready4win.com
++.reachtaxi.com
 +.rdrtrkmsg.com
 +.raw-solid.com
 +.ravin-hbs.com
@@ -71558,6 +71566,7 @@ healthdata.hicloud.com
 +.blousenymphopounder.cfd
 +.blethergodlessauryl.cfd
 +.bizoniabusbaragapai.cfd
++.bisieextancedogsled.cfd
 +.bespinbenzoinfolded.cfd
 +.bepillalgesicnonary.cfd
 +.beethlatitatdrabble.cfd
@@ -75311,6 +75320,7 @@ vietpool.vddns.vn
 +.supportnestframe.uk
 +.northvalesgrids.uk
 +.assistdocklane.uk
++.oakridgeflows.uk
 +.aerodriftcore.uk
 +.zenithvault.uk
 +.stormhelix.uk

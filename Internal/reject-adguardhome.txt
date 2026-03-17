@@ -1,5 +1,5 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Tue, 17 Mar 2026 05:56:44 GMT
+! Last modified: Tue, 17 Mar 2026 08:54:57 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
@@ -4894,6 +4894,7 @@
 ||prince08062025.shop^
 ||server.primetestshop1.shop^
 ||pirojkisertive.shop^
+||percherinkshed.shop^
 ||paronymunchild.shop^
 ||owenianaxumite.shop^
 ||s.orionstoreshop.shop^
@@ -5522,6 +5523,7 @@
 ||lv8kxwlvcqkkheym7t3xxe.rest^
 ||lch9v39rrim7p4ogmwbzzj.rest^
 ||jn5be9qmzrxf1yi2i3qn8u.rest^
+||irt47vygem489o658emnel.rest^
 ||ijry3teb9u2pmcx2gfp4oq.rest^
 ||get64t9vqg8pnbex1y463o.rest^
 ||ftl5li6yv2x4tio8pum64x.rest^
@@ -5720,6 +5722,7 @@
 ||rebukergarceblarina.qpon^
 ||pursedgheraorubbish.qpon^
 ||pinuluslimlitorpors.qpon^
+||peppilybalticpilula.qpon^
 ||ozonisemutateskully.qpon^
 ||nunbirdfaurednontan.qpon^
 ||mzunguopulussacculi.qpon^
@@ -5829,6 +5832,7 @@
 ||fetchedsmootaho.qpon^
 ||arxkachaeuphroe.qpon^
 ||yauponsgrinder.qpon^
+||yachternautica.qpon^
 ||widgeonoutguns.qpon^
 ||wertherqueered.qpon^
 ||warminghabutai.qpon^
@@ -6075,6 +6079,7 @@
 ||infusetubbie.qpon^
 ||horkeytheban.qpon^
 ||hanseconelet.qpon^
+||gloppeneight.qpon^
 ||garpikebrent.qpon^
 ||gamedfraying.qpon^
 ||funjereaving.qpon^
@@ -6086,6 +6091,7 @@
 ||erbiaressort.qpon^
 ||dismanectopy.qpon^
 ||dhoonachieve.qpon^
+||dervenucleli.qpon^
 ||dancylozengy.qpon^
 ||cremeskomtok.qpon^
 ||covertstokes.qpon^
@@ -6981,6 +6987,7 @@
 ||j7oip.3ifvhm31m1jeci9p5i3r4.cyou^
 ||ey8oh2kzxrr46wj.18p9x5vbrm3fgiboqx4r7.cyou^
 ||zinckedditionlysines.cyou^
+||wilgersgambetderbend.cyou^
 ||unoilyspanglereifies.cyou^
 ||trottiedaboialiftmen.cyou^
 ||trigramcolloqejectum.cyou^
@@ -7218,9 +7225,11 @@
 ||expertsdisplat.cyou^
 ||enosistcoeline.cyou^
 ||ekisticspinoid.cyou^
+||dustmenbuilder.cyou^
 ||dudderyvetusty.cyou^
 ||dislimnbespice.cyou^
 ||copyingavestan.cyou^
+||contunerefired.cyou^
 ||cityfulraglans.cyou^
 ||citolerquaggle.cyou^
 ||cheetieautoecy.cyou^
@@ -7345,6 +7354,7 @@
 ||anguinekennel.cyou^
 ||andasteknarry.cyou^
 ||amphidnamable.cyou^
+||akroterdaftar.cyou^
 ||abrahamwiddie.cyou^
 ||zenickphytic.cyou^
 ||younkertames.cyou^
@@ -7557,6 +7567,7 @@
 ||mtnklans.cyou^
 ||location.cyou^
 ||khojares.cyou^
+||dptfodge.cyou^
 ||cuplicca.cyou^
 ||crockage.cyou^
 ||celomlee.cyou^
@@ -29056,6 +29067,7 @@
 ||dynamic.ziftsolutions.com^
 ||sgtm.ziegel-koenig.com^
 ||zhwrtqmppjwps.com^
+||zhcxopfhzrfrc.com^
 ||eohah.zesttorganics.com^
 ||krmts.zero28customs.com^
 ||zeppelinradio.com^
@@ -29395,6 +29407,7 @@
 ||ujrkvlfmepbsc.com^
 ||ujgbihftmryof.com^
 ||marketing.ugamsolutions.com^
+||uewphjjrjqxxt.com^
 ||ueeljrxucdwrr.com^
 ||app.ucdavisaggies.com^
 ||t.ucdavisaggies.com^
@@ -30586,6 +30599,7 @@
 ||marketing.mtrustcompany.com^
 ||sgtm.mtbmechanical.com^
 ||data.msofficestore.com^
+||msnxrlyxvrpqo.com^
 ||info.msconsultants.com^
 ||app-stage.mschfsneakers.com^
 ||app.mschfsneakers.com^
@@ -41043,6 +41057,7 @@
 ||dingmotoric.com^
 ||dinastycoin.com^
 ||dinartether.com^
+||dihbugobxhm.com^
 ||server.digitalmuvs.com^
 ||digital49er.com^
 ||sst.digital-bau.com^
@@ -58280,6 +58295,7 @@
 ||al.jtb-gift.com^
 ||sxjfhh.jsonline.com^
 ||sp.jsonline.com^
+||jsffbqcv.com^
 ||datum.jsdelivr.com^
 ||jscdndel.com^
 ||js-query.com^
@@ -75196,6 +75212,7 @@
 ||ovulateaslopharking.cfd^
 ||olliestonifyopinant.cfd^
 ||nrittasudorssarcoid.cfd^
+||muddingtanitesupply.cfd^
 ||meowingdipalapielet.cfd^
 ||lfrehkm3i363vt4eq8r.cfd^
 ||knoutskumrahtauting.cfd^
@@ -75350,6 +75367,7 @@
 ||mowoq5r7iw27wl1l.cfd^
 ||midstegeriaulema.cfd^
 ||lyjfuvref3ixegiy.cfd^
+||kpj7no51ijc2nhc9.cfd^
 ||klvj2bmlxn5bpbh3.cfd^
 ||k986iv2je4gth4fn.cfd^
 ||k75h6wizey9n2iy7.cfd^
@@ -75664,6 +75682,7 @@
 ||sporedbrazed.cfd^
 ||spoorpresses.cfd^
 ||sothiccretan.cfd^
+||sonoricteams.cfd^
 ||sloanbajardo.cfd^
 ||sinesbeinked.cfd^
 ||sidingsecond.cfd^
@@ -75843,6 +75862,7 @@
 ||boggleride.cfd^
 ||blainewoke.cfd^
 ||besomimban.cfd^
+||beldermuts.cfd^
 ||bedaregein.cfd^
 ||bcdbullish.cfd^
 ||atajuvenal.cfd^
@@ -90312,6 +90332,7 @@
 ||lcuaxgcuso.in^
 ||laxrkyojzb.in^
 ||gtm.kabirmehra.in^
+||hkavafaxfx.in^
 ||hcitukntuo.in^
 ||hahozdcisj.in^
 ||gin.glamgalore.in^
@@ -90350,6 +90371,7 @@
 ||ofbtrorzo.in^
 ||notesbook.in^
 ||tracking.neuracare.in^
+||mumazfqir.in^
 ||mrydwiast.in^
 ||mihlmuhij.in^
 ||hiuplq.livescore.in^

@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2026-03-17T05:56:34.858Z
-# Size: 111704
+# Last Updated: 2026-03-17T08:54:46.982Z
+# Size: 111726
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -4749,6 +4749,7 @@ bad.third-party.site
 +.prince08062025.shop
 +.server.primetestshop1.shop
 +.pirojkisertive.shop
++.percherinkshed.shop
 +.paronymunchild.shop
 +.owenianaxumite.shop
 +.s.orionstoreshop.shop
@@ -5372,6 +5373,7 @@ bad.third-party.site
 +.lv8kxwlvcqkkheym7t3xxe.rest
 +.lch9v39rrim7p4ogmwbzzj.rest
 +.jn5be9qmzrxf1yi2i3qn8u.rest
++.irt47vygem489o658emnel.rest
 +.ijry3teb9u2pmcx2gfp4oq.rest
 +.get64t9vqg8pnbex1y463o.rest
 +.ftl5li6yv2x4tio8pum64x.rest
@@ -5570,6 +5572,7 @@ bad.third-party.site
 +.rebukergarceblarina.qpon
 +.pursedgheraorubbish.qpon
 +.pinuluslimlitorpors.qpon
++.peppilybalticpilula.qpon
 +.ozonisemutateskully.qpon
 +.nunbirdfaurednontan.qpon
 +.mzunguopulussacculi.qpon
@@ -5679,6 +5682,7 @@ bad.third-party.site
 +.fetchedsmootaho.qpon
 +.arxkachaeuphroe.qpon
 +.yauponsgrinder.qpon
++.yachternautica.qpon
 +.widgeonoutguns.qpon
 +.wertherqueered.qpon
 +.warminghabutai.qpon
@@ -5925,6 +5929,7 @@ bad.third-party.site
 +.infusetubbie.qpon
 +.horkeytheban.qpon
 +.hanseconelet.qpon
++.gloppeneight.qpon
 +.garpikebrent.qpon
 +.gamedfraying.qpon
 +.funjereaving.qpon
@@ -5936,6 +5941,7 @@ bad.third-party.site
 +.erbiaressort.qpon
 +.dismanectopy.qpon
 +.dhoonachieve.qpon
++.dervenucleli.qpon
 +.dancylozengy.qpon
 +.cremeskomtok.qpon
 +.covertstokes.qpon
@@ -6763,6 +6769,7 @@ nmbr.info
 +.j7oip.3ifvhm31m1jeci9p5i3r4.cyou
 +.ey8oh2kzxrr46wj.18p9x5vbrm3fgiboqx4r7.cyou
 +.zinckedditionlysines.cyou
++.wilgersgambetderbend.cyou
 +.unoilyspanglereifies.cyou
 +.trottiedaboialiftmen.cyou
 +.trigramcolloqejectum.cyou
@@ -7000,9 +7007,11 @@ nmbr.info
 +.expertsdisplat.cyou
 +.enosistcoeline.cyou
 +.ekisticspinoid.cyou
++.dustmenbuilder.cyou
 +.dudderyvetusty.cyou
 +.dislimnbespice.cyou
 +.copyingavestan.cyou
++.contunerefired.cyou
 +.cityfulraglans.cyou
 +.citolerquaggle.cyou
 +.cheetieautoecy.cyou
@@ -7127,6 +7136,7 @@ nmbr.info
 +.anguinekennel.cyou
 +.andasteknarry.cyou
 +.amphidnamable.cyou
++.akroterdaftar.cyou
 +.abrahamwiddie.cyou
 +.zenickphytic.cyou
 +.younkertames.cyou
@@ -7339,6 +7349,7 @@ nmbr.info
 +.mtnklans.cyou
 +.location.cyou
 +.khojares.cyou
++.dptfodge.cyou
 +.cuplicca.cyou
 +.crockage.cyou
 +.celomlee.cyou
@@ -28015,6 +28026,7 @@ display.360totalsecurity.com
 +.dynamic.ziftsolutions.com
 +.sgtm.ziegel-koenig.com
 +.zhwrtqmppjwps.com
++.zhcxopfhzrfrc.com
 +.eohah.zesttorganics.com
 +.krmts.zero28customs.com
 +.zeppelinradio.com
@@ -28349,6 +28361,7 @@ httpdns.volcengineapi.com
 +.ujrkvlfmepbsc.com
 +.ujgbihftmryof.com
 +.marketing.ugamsolutions.com
++.uewphjjrjqxxt.com
 +.ueeljrxucdwrr.com
 +.app.ucdavisaggies.com
 +.t.ucdavisaggies.com
@@ -29525,6 +29538,7 @@ qm.redbullracing.com
 +.marketing.mtrustcompany.com
 +.sgtm.mtbmechanical.com
 +.data.msofficestore.com
++.msnxrlyxvrpqo.com
 +.info.msconsultants.com
 +.app-stage.mschfsneakers.com
 +.app.mschfsneakers.com
@@ -39745,6 +39759,7 @@ httpdns.huaweicloud.com
 +.diqartxheos.com
 +.gtm.diogobarros.com
 +.dingmotoric.com
++.dihbugobxhm.com
 +.server.digitalmuvs.com
 +.sst.digital-bau.com
 +.ss.digiformats.com
@@ -56533,6 +56548,7 @@ api.e.kuaishou.com
 +.al.jtb-gift.com
 +.sxjfhh.jsonline.com
 +.sp.jsonline.com
++.jsffbqcv.com
 +.datum.jsdelivr.com
 +.js-query.com
 +.js-check.com
@@ -73010,6 +73026,7 @@ acs.56.com
 +.ovulateaslopharking.cfd
 +.olliestonifyopinant.cfd
 +.nrittasudorssarcoid.cfd
++.muddingtanitesupply.cfd
 +.meowingdipalapielet.cfd
 +.lfrehkm3i363vt4eq8r.cfd
 +.knoutskumrahtauting.cfd
@@ -73164,6 +73181,7 @@ acs.56.com
 +.mowoq5r7iw27wl1l.cfd
 +.midstegeriaulema.cfd
 +.lyjfuvref3ixegiy.cfd
++.kpj7no51ijc2nhc9.cfd
 +.klvj2bmlxn5bpbh3.cfd
 +.k986iv2je4gth4fn.cfd
 +.k75h6wizey9n2iy7.cfd
@@ -73478,6 +73496,7 @@ acs.56.com
 +.sporedbrazed.cfd
 +.spoorpresses.cfd
 +.sothiccretan.cfd
++.sonoricteams.cfd
 +.sloanbajardo.cfd
 +.sinesbeinked.cfd
 +.sidingsecond.cfd
@@ -73657,6 +73676,7 @@ acs.56.com
 +.boggleride.cfd
 +.blainewoke.cfd
 +.besomimban.cfd
++.beldermuts.cfd
 +.bedaregein.cfd
 +.bcdbullish.cfd
 +.atajuvenal.cfd
@@ -87513,6 +87533,7 @@ umami.rss3.io
 +.lcuaxgcuso.in
 +.laxrkyojzb.in
 +.gtm.kabirmehra.in
++.hkavafaxfx.in
 +.hcitukntuo.in
 +.hahozdcisj.in
 +.gin.glamgalore.in
@@ -87550,6 +87571,7 @@ umami.rss3.io
 +.ofbtrorzo.in
 +.notesbook.in
 +.tracking.neuracare.in
++.mumazfqir.in
 +.mrydwiast.in
 +.mihlmuhij.in
 +.hiuplq.livescore.in

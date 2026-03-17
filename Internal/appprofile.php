@@ -1,6 +1,6 @@
 <?php
 
-// # Build 2026-03-17T05:56:36.850Z
+// # Build 2026-03-17T08:54:52.870Z
 
 declare(strict_types=1);
 
@@ -2974,7 +2974,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,pthome.net,DIRECT',
         'DOMAIN-SUFFIX,nicept.net,DIRECT',
         'DOMAIN-SUFFIX,joyhd.net,DIRECT',
-        'DOMAIN-SUFFIX,127.atlas.skk.moe,DIRECT',
+        'DOMAIN,127.atlas.skk.moe,DIRECT',
         'DOMAIN-SUFFIX,m2m,DIRECT',
         'DOMAIN-SUFFIX,lan,DIRECT',
         'DOMAIN,homerouter.cpe,DIRECT',
@@ -3034,7 +3034,6 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,lztr.me,DIRECT',
         'DOMAIN-SUFFIX,nebulance.io,DIRECT',
         'DOMAIN-SUFFIX,filelist.io,DIRECT',
-        'DOMAIN-SUFFIX,127.0.0.1.sslip.io,DIRECT',
         'DOMAIN-SUFFIX,karagarga.in,DIRECT',
         'DOMAIN-SUFFIX,totheglory.im,DIRECT',
         'DOMAIN-SUFFIX,jpopsuki.eu,DIRECT',

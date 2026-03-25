@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-03-25T05:58:55.256Z
-# Size: 84331
+# Last Updated: 2026-03-25T10:45:58.529Z
+# Size: 84336
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1304,6 +1304,7 @@
 +.qtnljylmjmwpz.website
 +.qtjlciojkhkfl.website
 +.qtcpvgdluotko.website
++.qsynwrllhpeoh.website
 +.qsrvzbuhumwow.website
 +.qspptnjhxeneo.website
 +.qskdrpukvmpuo.website
@@ -1338,7 +1339,6 @@
 +.qlstwuvnfjpry.website
 +.qlpwodpqwzqcc.website
 +.qloekmmsuwjlq.website
-+.qllivyfbfttlw.website
 +.qljytcmigkfxc.website
 +.qlcmnszrrzdsp.website
 +.qlbztvyadkhwk.website
@@ -2605,6 +2605,7 @@
 +.hczbwlxihsjoc.website
 +.hcyzmspsootbf.website
 +.hcyvasviyzscd.website
++.hcsxzwdtmqpip.website
 +.hcntfxihubqde.website
 +.hcnieugnppidm.website
 +.hchwkwwflqsrc.website
@@ -3864,6 +3865,7 @@
 +.zfenhpijjexpd.online
 +.zfdwjrxmtatjc.online
 +.zfbpgxpdahjqf.online
++.zeoczbctghmgh.online
 +.zelvlzqbhpnpo.online
 +.zekperpfsozkw.online
 +.zehdhcjxiugss.online
@@ -6884,6 +6886,7 @@
 +.dhzuwuufhfyrq.online
 +.dhwsqszihmrpv.online
 +.dhruqpiaftxwk.online
++.dhrdievwphjqq.online
 +.dhqvpexhzduql.online
 +.dhqqtrblvxyex.online
 +.dhpfdaufroers.online
@@ -6908,6 +6911,7 @@
 +.dfommwypqqrdw.online
 +.dfdgkwyfharug.online
 +.deycppnevpjax.online
++.dewoyxkvgtshn.online
 +.dewivefepfjuo.online
 +.defnbvzwdlurt.online
 +.ddnjotsxuqhoo.online
@@ -11300,6 +11304,7 @@
 +.hbmnxmphnmyqa.space
 +.hbfdhkdeaatch.space
 +.hawktzefayiat.space
++.hatficlvvqbwl.space
 +.haizlagxxihtb.space
 +.hafqflsjvhnmc.space
 +.hafehsagkeyrr.space
@@ -14315,6 +14320,7 @@
 +.osibqbwajdoqj.site
 +.orvgpjjyagvfn.site
 +.oqyebtnuafqkb.site
++.oqxpfydvttruz.site
 +.oqhhjzdtexufr.site
 +.opnymkhgfsyuw.site
 +.oplxpskuplfxf.site
@@ -16479,6 +16485,7 @@
 +.peeringtamable.shop
 +.paronymunchild.shop
 +.normal05032026.shop
++.nacrinemezcals.shop
 +.linguetglommox.shop
 +.lienquanmobile.shop
 +.ladder05032026.shop
@@ -16504,6 +16511,7 @@
 +.chopinsexhumed.shop
 +.bookerycausans.shop
 +.battle05032026.shop
++.yakaloamylase.shop
 +.worldcannabis.shop
 +.whoosyunawful.shop
 +.vib-gold-card.shop
@@ -17011,6 +17019,7 @@
 +.mazhabipaildanism.qpon
 +.lutealdossfigbird.qpon
 +.haspbrulziearayne.qpon
++.grummeljauktrined.qpon
 +.furzednovellyleah.qpon
 +.cubiclyteaismclem.qpon
 +.camillaconredodea.qpon
@@ -17344,6 +17353,7 @@
 +.thymustilters.qpon
 +.thuggeeredock.qpon
 +.thinkerbarbas.qpon
++.tesselartisan.qpon
 +.teethequeered.qpon
 +.teenfulreflew.qpon
 +.teathermuonic.qpon
@@ -17856,6 +17866,7 @@
 +.nosilynursle.qpon
 +.noritkerflop.qpon
 +.nofilemaskeg.qpon
++.noctulegeira.qpon
 +.nipponliangs.qpon
 +.neriticsteem.qpon
 +.naviteiwound.qpon
@@ -22309,6 +22320,7 @@
 +.simpleswap.cyou
 +.shugcatsup.cyou
 +.shrupsfuzz.cyou
++.sergerxosa.cyou
 +.serfrizzle.cyou
 +.senegaspay.cyou
 +.seidclonos.cyou
@@ -41210,6 +41222,7 @@ fkp.samsungcloudsolution.com
 +.floodinglivestock.com
 +.flintrussiamarine.com
 +.flighttraditional.com
++.affiliates.flightconnections.com
 +.flexibilitukydtea.com
 +.flashlightssturdy.com
 +.flashingicicleset.com
@@ -44112,6 +44125,7 @@ otn.samsungcloudcdn.com
 +.mahabaliexpress.com
 +.magyarokvagyunk.com
 +.magazinetribune.com
++.lxtitfmmhbhtehc.com
 +.luxcuwqmryxjsfq.com
 +.lunariacrystals.com
 +.lukeinoffensive.com
@@ -45211,6 +45225,7 @@ otn.samsungcloudcdn.com
 +.trickervietnam.com
 +.trianff-sukien.com
 +.trendingpatrol.com
++.tremendousbulk.com
 +.treasurerchord.com
 +.treasurequarry.com
 +.treasonfinding.com
@@ -57163,6 +57178,7 @@ gpm.samsungqbe.com
 +.cttpostprt.com
 +.ctrmanager.com
 +.csstudyhub.com
++.cssigerwpf.com
 +.us-east1.cryptovein.com
 +.cryptopros.com
 +.cryptoland.com
@@ -62038,15 +62054,6 @@ samsungeurope.eu.qualtrics.com
 +.sukienlq.com
 +.sugulove.com
 +.suckdude.com
-+.publicationgroup.substack.com
-+.tradestrategy.substack.com
-+.0x00000000000.substack.com
-+.web3projects.substack.com
-+.teamproject.substack.com
-+.etharticles.substack.com
-+.uniproject.substack.com
-+.webpublic.substack.com
-+.email.mg1.substack.com
 +.sub2tech.com
 +.style-js.com
 +.strossle.com
@@ -78832,8 +78839,6 @@ ns11.whois.co.kr
 +.wetrack.it
 +.upstory.it
 +.trick17.it
-+.ads.tiscali.it
-+.ss.tiscali.it
 +.scribus.it
 +.open-up.it
 +.share.notizie.it

@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-03-31T06:14:50.529Z
-# Size: 85911
+# Last Updated: 2026-03-31T17:46:53.643Z
+# Size: 85927
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -23,7 +23,7 @@
 #   - https://filters.adtidy.org/extension/ublock/filters/7_optimized.txt
 #   - https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
 #   - https://proxy.cdn.skk.moe/https/someonewhocares.org/hosts/zero/hosts
-#   - https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareDomains.txt
+#   - https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareDomains.txt
 #   - https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
 #   - https://ublockorigin.github.io/uAssets/thirdparties/easylist-notifications.txt
 #   - https://ublockorigin.github.io/uAssetsCDN/filters/annoyances.min.txt
@@ -12118,6 +12118,7 @@
 +.doloxfsojjujv.space
 +.doeaefdadhzue.space
 +.docktxucjwfay.space
++.dnzxncwmglrwy.space
 +.dnzsyouiexcar.space
 +.dnvogsqirpcfq.space
 +.dnorfqmqptdml.space
@@ -14085,6 +14086,7 @@
 +.tomejkwjlqyoz.site
 +.toiknxtfiyaht.site
 +.toebqarnbbxqr.site
++.toddhclbvxmxd.site
 +.tnxgvdzwqpizt.site
 +.tnrlowinajjgu.site
 +.tnmdthuefllhf.site
@@ -14194,6 +14196,7 @@
 +.spfuiiitfethh.site
 +.spcwtcizsymxf.site
 +.sopxcaozjplss.site
++.socehdiygqknp.site
 +.snvkkflgdoekk.site
 +.snuzqsbfqbtzh.site
 +.snsfdmmzpixhn.site
@@ -15659,6 +15662,7 @@
 +.ihsdsndobguvc.site
 +.igtgpwlqldnqn.site
 +.igivkaivdeukx.site
++.igfpbdwgttdfs.site
 +.ifwnukimkgocb.site
 +.ifaqirpgjntoc.site
 +.ieuuihjhggttw.site
@@ -16423,6 +16427,7 @@
 +.dbdsuhykupobi.site
 +.dbcpkoofcmkwm.site
 +.dbaeynvmogqjr.site
++.dazkiqgidyoml.site
 +.dayuxxtabgzpu.site
 +.daoxwweomcsvt.site
 +.czokcwkmkleuv.site
@@ -17814,6 +17819,7 @@
 +.mudejarforches.qpon
 +.mousingswedish.qpon
 +.morfreyoutfast.qpon
++.moisefluytczar.qpon
 +.misdatesimplum.qpon
 +.minikenungiddy.qpon
 +.midairsforswat.qpon
@@ -26262,6 +26268,7 @@
 +.subdued-forever.pro
 +.sturdyassociate.pro
 +.straight-public.pro
++.staid-economics.pro
 +.sparseeconomics.pro
 +.some-reputation.pro
 +.slimalternative.pro
@@ -27219,6 +27226,7 @@
 +.publichealthconference.org
 +.lintheirbrightscarletc.org
 +.academiadoconhecimento.org
++.payable-notifications.org
 +.nderfulstatuehelooksj.org
 +.fundaromulobetancourt.org
 +.eautifulasaweathercoc.org
@@ -27638,7 +27646,6 @@
 +.enathyimemedi.org
 +.ad1.emule-project.org
 +.ementrandings.org
-+.eglimermailer.org
 +.xml.efullofeedshe.org
 +.eforeukandthi.org
 +.edbyherslende.org
@@ -27748,7 +27755,6 @@
 +.freewebfonts.org
 +.fiexpectthat.org
 +.etobeasasile.org
-+.etinsendmail.org
 +.eschemicalco.org
 +.ergoplatform.org
 +.ereissomeone.org
@@ -27889,6 +27895,7 @@
 +.xml.ionsandinde.org
 +.ionakasulba.org
 +.io-telegran.org
++.inomanliner.org
 +.in-telegrmn.org
 +.ilonermailc.org
 +.igansupport.org
@@ -28202,7 +28209,6 @@
 +.greenshot.org
 +.govearali.org
 +.getmonero.org
-+.gerlimeri.org
 +.freshpool.org
 +.eticascan.org
 +.ethermine.org
@@ -28441,6 +28447,7 @@
 +.ellaism.org
 +.africancomet.duckdns.org
 +.webwidgetz.duckdns.org
++.oficialrem.duckdns.org
 +.tiwanlinm.duckdns.org
 +.sosclient.duckdns.org
 +.freshzz00.duckdns.org
@@ -28629,7 +28636,6 @@
 +.vaymb.org
 +.umine.org
 +.contentinfo.tcdrs.org
-+.shfug.org
 +.sheos.org
 +.serty.org
 +.seppy.org
@@ -28699,6 +28705,7 @@
 +.dbios.org
 +.danbo.org
 +.daico.org
++.crcdn.org
 +.comkp.org
 +.cimbb.org
 +.1529462937.rsc.cdn77.org
@@ -31543,6 +31550,7 @@ samsungotn.net
 +.jhwdpdnwej.net
 +.jganqtdsam.net
 +.jempoortis.net
++.jem-mialwe.net
 +.jeepsujous.net
 +.jausoothal.net
 +.jauhaulaud.net
@@ -33592,6 +33600,7 @@ test.samsungrm.net
 +.app.hstatic.net
 +.hphp-dy.net
 +.hostave.net
++.hobobot.net
 +.hatmiso.net
 +.revive.haskovo.net
 +.hapinet.net
@@ -34407,41 +34416,44 @@ scx.ddns.net
 +.multiyogaoffer.jp.net
 +.pairpure.jp.net
 +.vivian.jp.net
-+.crimsonpublish.stormglade.in.net
-+.anch0r1-route.stormglade.in.net
-+.quordra3os.stormglade.in.net
-+.ligh-stric.stormglade.in.net
-+.offecargo.stormglade.in.net
-+.we5ohkh2.stormglade.in.net
++.decode-frame.chernomofnothes.in.net
++.basaltextend.chernomofnothes.in.net
++.protectsup.chernomofnothes.in.net
++.taldrais3.chernomofnothes.in.net
++.m0on-flow.chernomofnothes.in.net
++.gr0v-hold.chernomofnothes.in.net
++.vorforgeet.paleontraglan.in.net
++.verify-invoi.radiatebeef.in.net
++.crawlerstor.radiatebeef.in.net
++.carg-man.radiatebeef.in.net
++.waveque.radiatebeef.in.net
++.5ucnd.radiatebeef.in.net
++.vn06.radiatebeef.in.net
++.clusterclinic.batkascript.in.net
++.summitgeyser.batkascript.in.net
++.canyonfresh.batkascript.in.net
++.xehramf.batkascript.in.net
++.btkrpap.batkascript.in.net
++.g38198.batkascript.in.net
 +.di5pat-ring.prowinserv.in.net
-+.riverrefine.oakwhisper.in.net
-+.hyper-4uth.oakwhisper.in.net
++.alt-h0llow.premiumtos.in.net
++.imagedis.premiumtos.in.net
++.epkzg.premiumtos.in.net
 +.filteglob.oakwhisper.in.net
-+.wpx3375n.oakwhisper.in.net
-+.11kzvq.oakwhisper.in.net
 +.wlikkfq.n1ghtbloom.in.net
-+.geyseropti.starforge.in.net
-+.meta-0rch.starforge.in.net
-+.tranrur.starforge.in.net
-+.bzknn.starforge.in.net
-+.quick8-chain.n0vabrook.in.net
-+.decode-stead.n0vabrook.in.net
-+.proto-p0rt.n0vabrook.in.net
-+.3d1t-node.n0vabrook.in.net
-+.guarmea.n0vabrook.in.net
-+.wu4747.n0vabrook.in.net
++.f4br2-scope.beltfloor.in.net
++.sterilelan.beltfloor.in.net
++.d3nse-gate.beltfloor.in.net
++.cqnvpcp.beltfloor.in.net
++.11szohw.beltfloor.in.net
++.ahus.beltfloor.in.net
 +.anch0-bridge.withregw.in.net
 +.proto-h4ul.withregw.in.net
 +.neo-rnount.withregw.in.net
 +.opticsval.withregw.in.net
 +.nlcygd.withregw.in.net
-+.refineterminal.foxrunet.in.net
-+.subtlsegme.foxrunet.in.net
-+.urbanvoya.foxrunet.in.net
-+.nortideis.foxrunet.in.net
-+.echo-draf.foxrunet.in.net
-+.lwvkfb.foxrunet.in.net
 +.woonort.redbyte.in.net
++.tdp72.v7lora.in.net
 +.spearmint4334.gb.net
 +.ad.net
 +.a8.net
@@ -36985,7 +36997,6 @@ scx.ddns.net
 +.allegationsurgeryblotch.com
 +.aimingwildernessinterim.com
 +.agriculturebasssettling.com
-+.agence-immobiliere-lyon.com
 +.afflictionevilorganized.com
 +.advanceddigitalbusiness.com
 +.adoptcraneinexhaustible.com
@@ -37123,7 +37134,6 @@ scx.ddns.net
 +.shoppingrewardprograms.com
 +.sheareasygoingcommerce.com
 +.settleddisembarkinborn.com
-+.servicioslogisticosdyc.com
 +.servicesofferinggrease.com
 +.sentimentbuttertrapped.com
 +.sensationdentistcousin.com
@@ -38914,7 +38924,6 @@ fkp.samsungcloudsolution.com
 +.goonutteredconfessed.com
 +.goodvibesmatterforus.com
 +.godlessobviousfossil.com
-+.gobiotechpestcontrol.com
 +.globalcopyimperative.com
 +.global-casino-gaming.com
 +.glimpsedimebodyguard.com
@@ -39106,6 +39115,7 @@ fkp.samsungcloudsolution.com
 +.councilmanfluidfairy.com
 +.costsyllabusrecreate.com
 +.fp.corporatetravelmoney.com
++.corepilatesnicaragua.com
 +.conveyactualdictator.com
 +.conversationstruggle.com
 +.continuallynativesdo.com
@@ -42075,7 +42085,6 @@ fkp.samsungcloudsolution.com
 +.lacytrinityhissed.com
 +.lackdealervisitor.com
 +.krankenwagenmotor.com
-+.kotogadang-pusako.com
 +.kosher-expression.com
 +.knowgrownupdoomed.com
 +.knobstiffenblouse.com
@@ -42223,7 +42232,6 @@ fkp.samsungcloudsolution.com
 +.goodnaturedinside.com
 +.golangrowledjuicy.com
 +.gluttoneloisedeaf.com
-+.globaltechbilling.com
 +.arsconsole.global-intermedia.com
 +.global-app-center.com
 +.js.glitnoraffiliates.com
@@ -44394,6 +44402,7 @@ fkp.samsungcloudsolution.com
 +.voyageedgyglass.com
 +.vongquaymienphi.com
 +.vnduthianhgroup.com
++.vlhqwfcajivguim.com
 +.vitindungpgbank.com
 +.vitalityfortune.com
 +.visualwikicloud.com
@@ -44829,6 +44838,7 @@ otn.samsungcloudcdn.com
 +.riginvestigator.com
 +.richmediastudio.com
 +.richardarobbins.com
++.rhythmvacations.com
 +.rhinoaffiliates.com
 +.rganizationsuch.com
 +.rewardsgiantusa.com
@@ -47023,6 +47033,7 @@ otn.samsungcloudcdn.com
 +.my-netfiix-acc.com
 +.my-live-videos.com
 +.mwoukrkskillso.com
++.muzzumilruheel.com
 +.musselmerchant.com
 +.musicarbitrary.com
 +.muralattentive.com
@@ -47714,6 +47725,7 @@ otn.samsungcloudcdn.com
 +.diligentcloset.com
 +.digitalmediapp.com
 +.digitaldigsads.com
++.digitalauralab.com
 +.digital-metric.com
 +.ads.digital-digest.com
 +.digisubmission.com
@@ -48052,6 +48064,7 @@ otn.samsungcloudcdn.com
 +.bestoweddebris.com
 +.bestimpersonal.com
 +.best-clips-app.com
++.bertticleaning.com
 +.bernoussiphone.com
 +.bentpersuasive.com
 +.benchraspberry.com
@@ -48878,7 +48891,6 @@ otn.samsungcloudcdn.com
 +.t.salesmatemail.com
 +.tracking.salaallehanda.com
 +.tracking.etidning.salaallehanda.com
-+.sakuraloyalty.com
 +.sakshipradhan.com
 +.safestcaterer.com
 +.saferedirrect.com
@@ -49047,7 +49059,6 @@ otn.samsungcloudcdn.com
 +.politecabinet.com
 +.polished-hook.com
 +.policyupdater.com
-+.pole-rt-inger.com
 +.polarismagnet.com
 +.pointlesshour.com
 +.pointingdowry.com
@@ -49217,6 +49228,7 @@ otn.samsungcloudcdn.com
 +.news-finances.com
 +.newcomerapart.com
 +.newagerevenue.com
++.new-ramboplay.com
 +.new-pressroom.com
 +.netvisualizer.com
 +.netclickstats.com
@@ -51539,7 +51551,6 @@ otn.samsungcloudcdn.com
 +.petendereruk.com
 +.perverternie.com
 +.personagraph.com
-+.personaclick.com
 +.persiafrance.com
 +.permitwarmer.com
 +.permitalways.com
@@ -51694,6 +51705,7 @@ otn.samsungcloudcdn.com
 +.nganhangbidv.com
 +.adv.nexthardware.com
 +.nextgenstats.com
++.nextfeatures.com
 +.ads.newsobserver.com
 +.newsadsppush.com
 +.newlypredata.com
@@ -51791,7 +51803,6 @@ otn.samsungcloudcdn.com
 +.monetize-ssp.com
 +.afm.monetaturkey.com
 +.monero-miner.com
-+.mondesignweb.com
 +.monclerchile.com
 +.mon-suivi-bp.com
 +.mojinchuanqi.com
@@ -52152,7 +52163,6 @@ otn.samsungcloudcdn.com
 +.identifyweek.com
 +.idea-capital.com
 +.idbpbvlyswim.com
-+.icoffeecloud.com
 +.iceonecasino.com
 +.ibento-yahoo.com
 +.i-sharecloud.com
@@ -52860,6 +52870,7 @@ otn.samsungcloudcdn.com
 +.cdnfreemalva.com
 +.ccappuccinno.com
 +.cavalryimage.com
++.cause-impact.com
 +.catstudyanna.com
 +.categorysort.com
 +.casketembody.com
@@ -53077,6 +53088,7 @@ otn.samsungcloudcdn.com
 +.archivescane.com
 +.aquaplatform.com
 +.apxsoftwares.com
++.apps-500star.com
 +.apprebuffnat.com
 +.appocalypsis.com
 +.applestorevn.com
@@ -53804,7 +53816,6 @@ otn.samsungcloudcdn.com
 +.storehaiyen.com
 +.refer.stopandshop.com
 +.stonedpuppy.com
-+.stonecradle.com
 +.stonecalcom.com
 +.cdn.stoic-media.com
 +.stocktangle.com
@@ -56059,6 +56070,7 @@ otn.samsungcloudcdn.com
 +.salesiq.zohopublic.com
 +.zoeaegyral.com
 +.li.ziffimages.com
++.zhigao5191.com
 +.zfaxahmcus.com
 +.zeusclicks.com
 +.zettapetta.com
@@ -56305,7 +56317,6 @@ otn.samsungcloudcdn.com
 +.unmineable.com
 +.unloadonly.com
 +.refer.uniqlo-usa.com
-+.cn.unionlever.com
 +.unibotscdn.com
 +.undoneknit.com
 +.unclepigva.com
@@ -56652,6 +56663,7 @@ otn.samsungcloudcdn.com
 +.reklam.softreklam.com
 +.popup.softreklam.com
 +.js.softreklam.com
++.softpebble.com
 +.softmillon.com
 +.snowsignal.com
 +.snapdeal33.com
@@ -57593,6 +57605,7 @@ gpm.samsungqbe.com
 +.jestbiases.com
 +.jerseyload.com
 +.device-profile.jeniusbank.com
++.jem-mialwe.com
 +.share.jellybelly.com
 +.jekjsbycun.com
 +.jeanneodds.com
@@ -60686,7 +60699,6 @@ gpm.samsungqbe.com
 +.solvusoft.com
 +.solveseek.com
 +.widget.solvemate.com
-+.solutelco.com
 +.id.solidgate.com
 +.soldierby.com
 +.solarwill.com
@@ -61813,6 +61825,7 @@ samsungeurope.eu.qualtrics.com
 +.sg-payment.cydf.hoyoverse.com
 +.howcircus.com
 +.links.housekeep.com
++.hoursales.com
 +.hotwwomen.com
 +.hottspace.com
 +.hottopnow.com
@@ -62045,7 +62058,6 @@ samsungeurope.eu.qualtrics.com
 +.fledbeset.com
 +.flcounter.com
 +.js.flashyapp.com
-+.raw.flameblox.com
 +.content.fisglobal.com
 +.share.firstleaf.com
 +.clovergo.june-testing.firstdata.com
@@ -62266,6 +62278,7 @@ samsungeurope.eu.qualtrics.com
 +.decentriq.com
 +.decenthat.com
 +.debutknee.com
++.dealsrate.com
 +.triangle.dealsaver.com
 +.deal4unow.com
 +.dead-hour.com
@@ -63950,6 +63963,7 @@ samsungeurope.eu.qualtrics.com
 +.pddeploy.com
 +.mail.pcygphil.com
 +.pchcodes.com
++.14-0-204-188.static.pccw-hkt.com
 +.pccvisas.com
 +.pcacodes.com
 +.pblcpush.com
@@ -65051,6 +65065,7 @@ huawei.facebook.com
 +.sfdc.cottages.com
 +.corp-erp.com
 +.corlmedi.com
++.coralpac.com
 +.coosynci.com
 +.coordino.com
 +.cooknove.com
@@ -65087,6 +65102,7 @@ huawei.facebook.com
 +.clipsfan.com
 +.telus.signup.clik2pay.com
 +.clickyab.com
++.go.clickwww.com
 +.clicksor.com
 +.clickinc.com
 +.clickgem.com
@@ -65486,14 +65502,11 @@ huawei.facebook.com
 +.ads.allsites.com
 +.alkemics.com
 +.imagefiles-backup.oss-ap-southeast-7.aliyuncs.com
-+.tyuiyyuiuwee.oss-ap-southeast-1.aliyuncs.com
 +.sgnfyn.oss-cn-shenzhen.aliyuncs.com
-+.pesktop1.oss-cn-hongkong.aliyuncs.com
 +.kuakuawenjian.oss-cn-hangzhou.aliyuncs.com
 +.shangmei-test.oss-cn-beijing.aliyuncs.com
 +.bruplong.oss-accelerate.aliyuncs.com
 +.weco2.oss-me-east-1.aliyuncs.com
-+.wwiiss.oss-eu-west-1.aliyuncs.com
 +.alicshop.com
 +.alia-iso.com
 +.algopine.com
@@ -68021,7 +68034,6 @@ healthdata.hicloud.com
 +.dsp-api.xaprio.com
 +.xaltos.com
 +.xaiten.com
-+.jkem45.x98665.com
 +.x2pool.com
 +.www2.wyylde.com
 +.www-fb.com
@@ -69193,7 +69205,6 @@ healthdata.hicloud.com
 +.inopio.com
 +.innity.com
 +.innaxx.com
-+.inmbau.com
 +.inhive.com
 +.infoum.com
 +.infles.com
@@ -69320,7 +69331,6 @@ healthdata.hicloud.com
 +.video-stats.video.google.com
 +.partnerad.l.google.com
 +.pagead.l.google.com
-+.cdn.file6.goodid.com
 +.goobbe.com
 +.gomsop.com
 +.cdn.gomlab.com
@@ -70546,7 +70556,6 @@ healthdata.hicloud.com
 +.rbcdn.com
 +.uscmfm.rbccm.com
 +.a574f3c3.raylo.com
-+.ndown2.ra2ol.com
 +.qzlog.com
 +.qxrbu.com
 +.qwzly.com
@@ -71278,6 +71287,7 @@ healthdata.hicloud.com
 +.b1img.com
 +.azmnp.com
 +.azbns.com
++.aymxv.com
 +.ay267.com
 +.link.axios.com
 +.axerc.com
@@ -74580,6 +74590,7 @@ healthdata.hicloud.com
 +.plotejataco.cfd
 +.pksjozyplea.cfd
 +.pilchkariti.cfd
++.pightbondon.cfd
 +.picotahtoff.cfd
 +.picareltapa.cfd
 +.phycicultra.cfd
@@ -75430,6 +75441,7 @@ healthdata.hicloud.com
 +.tomarket-rewards.vercel.app
 +.nhantienquoctev3.vercel.app
 +.giaodichquoctes.vercel.app
++.fullclear-seven.vercel.app
 +.airbnb-pi-three.vercel.app
 +.wester-union-u.vercel.app
 +.trezosuiteapp.vercel.app
@@ -76732,7 +76744,6 @@ vietpool.vddns.vn
 +.zona1.at.ua
 +.info.jackpotcitycasino.co.tz
 +.tanscarattorneys.co.tz
-+.chuguadventures.co.tz
 +.info.betway.co.tz
 +.ngazi.co.tz
 osscach2023.hicloud.tw
@@ -77062,6 +77073,7 @@ sso.internetat.tv
 +.count.livetv.sx
 +.link.sv
 +.identidaddigital.credicomer.com.sv
++.vault88x.secure-efficient2.su
 +.quicksaledeal.su
 +.gdudh473-chersfeye483.landmarksfeed.su
 +.tradedealvip.su
@@ -78460,6 +78472,8 @@ sso.internetat.tv
 +.sharp.ondu.ru
 +.oiya.ru
 +.bn.ohah.ru
++.2.off3.ru
++.1.off3.ru
 +.o24o.ru
 +.freebsd.nnna.ru
 +.obs.nnm2.ru
@@ -78940,7 +78954,6 @@ samsung-klimatyzacja.pl
 +.sp.theladyshop.pk
 +.ibnbatutta.pk
 +.adclick.pk
-+.ijbfi.pk
 +.pns.org.pk
 +.ns1.multi.net.pk
 +.tx.micro.net.pk
@@ -79228,6 +79241,7 @@ samsung-klimatyzacja.pl
 +.info.betway.com.ng
 +.secure.jumia.com.ng
 +.register-turnamen.free.nf
++.reutilizemais.co.mz
 +.villasmbuva.co.mz
 +.info.betway.co.mz
 +.shield.boostbusiness.my
@@ -79375,6 +79389,7 @@ samsung-klimatyzacja.pl
 +.poster.gamesprite.me
 +.dlyarecnew.me
 +.chatterpal.me
++.bharattank.me
 +.events.audioplace.me
 +.topmomo88.me
 +.strawpoii.me
@@ -80243,6 +80258,7 @@ ns11.whois.co.kr
 +.sec.login.mail.goo.ne.jp
 +.ad.goo.ne.jp
 +.d2c.ne.jp
++.cc9.ne.jp
 +.content.evisa.mofa.go.jp
 +.atelier-happiness.co.jp
 +.veritaspartners.co.jp
@@ -81158,6 +81174,7 @@ ns11.whois.co.kr
 +.ark.io
 +.acq.io
 +.consent.23g.io
++.gohelpertechnologies.in
 +.academicassociation.in
 +.vaibhavtripathi.in
 +.simbhaolisugars.in
@@ -81360,6 +81377,7 @@ ns11.whois.co.kr
 +.gim.co.il
 +.tags.ulsterbankanytimebanking.ie
 +.tags.bankline.ulsterbank.ie
++.gossipband.ie
 +.cuttherope.ie
 +.pool.distilled.ie
 +.cmp.cdn.thesun.ie
@@ -81400,7 +81418,6 @@ ns11.whois.co.kr
 +.webmail.grahachemical.co.id
 +.adstarsmedia.co.id
 +.accesstrade.co.id
-+.nusatoyota.co.id
 +.interbanx.co.id
 +.content22.citibank.co.id
 +.digiads.co.id
@@ -83184,6 +83201,7 @@ ns11.whois.co.kr
 +.lib.rus.ec
 +.sig.tecnologicosucre.edu.ec
 +.sonatns.sonatrach.dz
++.dcwblida.dz
 +.secure.jumia.dz
 +.secure.jumia.com.dz
 +.metrigo.zalan.do
@@ -83545,7 +83563,6 @@ ns11.whois.co.kr
 +.blogtraffic.de
 +.blogcounter.de
 +.blog-o-rama.de
-+.bitcoinpara.de
 +.bifboxswiss.de
 +.autoscurt24.de
 +.affilimatch.de
@@ -84725,7 +84742,6 @@ s.w-x.co
 +.ad.allyes.cn
 +.aichia.cn
 +.aapool.cn
-+.1827897262.v.123pan.cn
 +.yrwap.cn
 +.static.youdm.cn
 +.ce.wlaoc.cn
@@ -84838,7 +84854,6 @@ s.w-x.co
 +.pcmag.cm
 +.nexxt.cm
 +.giphy.cm
-+.fonij.cm
 +.1xbet.cm
 +.wix.cm
 +.hbo.cm
@@ -84849,6 +84864,7 @@ s.w-x.co
 +.servitemequipos.cl
 +.victorlutte.cl
 +.mundocarnes.cl
++.mevetlab.cl
 +.pool.chaucha.cl
 +.antex.cl
 +.rove.cl
@@ -84985,7 +85001,6 @@ s.w-x.co
 +.hkzhongzhuangzhan.cc
 +.upliftrenewables.cc
 +.elitiorecfreetoo.cc
-+.skillnorequired.cc
 +.get-things-done.cc
 +.delookiinasfier.cc
 +.appvip-download.cc
@@ -85168,6 +85183,7 @@ s.w-x.co
 +.insurance.cc
 +.griefcube.cc
 +.gpumining.cc
++.filezilla.cc
 +.egyptpsto.cc
 +.egyptpoxy.cc
 +.egyptpoxu.cc
@@ -85381,7 +85397,6 @@ s.w-x.co
 +.refer.newbalance.ca
 +.miningcoin.ca
 +.tmcontent.meridiancu.ca
-+.kavacanada.ca
 +.oascentral.itbusiness.ca
 +.content.gapfactory.ca
 +.fixedfloat.ca
@@ -85528,6 +85543,7 @@ t.email1.samsung.ca
 +.schenckel.com.br
 +.scainseto.com.br
 +.reidocoin.com.br
++.prosingle.com.br
 +.servedby.personare.com.br
 +.collector.moreamora.com.br
 +.app.monetizze.com.br
@@ -85946,4 +85962,3 @@ t.email1.samsung.ca
 +.weknow.ac
 +.say.ac
 ################## EOF ##################
-

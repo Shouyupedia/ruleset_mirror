@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-04-02T12:46:49.053Z
-# Size: 86461
+# Last Updated: 2026-04-02T17:40:47.569Z
+# Size: 86451
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -3585,7 +3585,6 @@
 +.atubryjsbface.website
 +.attrqqbnbjxkg.website
 +.atqjthrqgcjkf.website
-+.atoohghljijgj.website
 +.atgvmlnbtnlxl.website
 +.atbvxutitxgdf.website
 +.atbdvpyfcedrz.website
@@ -3688,6 +3687,7 @@
 +.gamepass.network
 +.equihash.network
 +.homecaremovers-com-wp-admin-img-wp-ico.appwrite.network
++.update-expiry-notification-report.appwrite.network
 +.fwbdndyikloaxb68duujcfyudy.appwrite.network
 +.b2b-update.appwrite.network
 +.alterdot.network
@@ -4279,7 +4279,6 @@
 +.xlbbptatopcat.online
 +.xlakqgtnzjcix.online
 +.xkudvpefmaeua.online
-+.xkmxxgroronzy.online
 +.xkisdsaazwzch.online
 +.xkhjonrijnvvy.online
 +.xkfbgozlndstp.online
@@ -4808,7 +4807,6 @@
 +.tqisbudqqjnif.online
 +.tpwkbwphabbau.online
 +.tpooxlktyvpsn.online
-+.tpnmhqylskzlg.online
 +.tplmfqnrssmmw.online
 +.tpjdszootpiir.online
 +.tpiwuerxwtuyz.online
@@ -7389,7 +7387,6 @@
 +.cdfkygvddsbre.online
 +.ccpdaindrmyyx.online
 +.cbvnzczrbcjoq.online
-+.cbtqapthvayla.online
 +.cbpttdpymofjx.online
 +.cblmcgeipgxxc.online
 +.cakzbbrjeagxl.online
@@ -9846,6 +9843,7 @@
 +.vavywfsfldhpb.space
 +.vahcvdeffqkek.space
 +.vadswhzcwrrbc.space
++.vacgsfoidbuub.space
 +.vaatjcfcwvjsa.space
 +.uzukakccaflam.space
 +.uzhjcqoywhrvn.space
@@ -14041,7 +14039,6 @@
 +.vdmrsubdqloit.site
 +.vdkvjefuqvfoh.site
 +.vdhyzqehrizib.site
-+.vdhvldghccavh.site
 +.vcigmsgdhiojg.site
 +.vcenygfcoyias.site
 +.vbztjfpvbfnic.site
@@ -16243,7 +16240,6 @@
 +.fvahbwnlcqvaf.site
 +.fuslyjnqsfkuy.site
 +.furjoyfdoumka.site
-+.fuosdfqvdvzfd.site
 +.funypzxswivgp.site
 +.fulohsdudxyhc.site
 +.fujeqldwtuxgv.site
@@ -17693,7 +17689,6 @@
 +.github.sale
 +.beyond.sale
 +.mixc9pez3r3511yb3uey83y922vk1pru765.rest
-+.fq5w8u5bxwqq79gjqnzjecke93y3z8hf5u8.rest
 +.p6mqqxz1hhkchovhbnuqvwuo6pp4pjfcb.rest
 +.k4855r48hxoj5l17zhfe36elf5rlon6gi.rest
 +.ub113j55b5xejf1bk38787bhq4nroccp.rest
@@ -17844,7 +17839,6 @@
 +.lebhaftiodidejilted.qpon
 +.insurerimmewfripper.qpon
 +.hughocalbaceastulty.qpon
-+.granagefarishbusine.qpon
 +.espialsaguajicrumps.qpon
 +.efflateyomimpatamar.qpon
 +.congersfungidcorkir.qpon
@@ -17873,7 +17867,6 @@
 +.forblowtribbledunt.qpon
 +.finnysubgyregroped.qpon
 +.circlesassailslopy.qpon
-+.champeunhumanmpret.qpon
 +.capletsammergilgul.qpon
 +.blokeslengthsnouty.qpon
 +.bedsickallanlariid.qpon
@@ -36839,7 +36832,6 @@ scx.ddns.net
 +.substantialbabjuxtapose.com
 +.subjectmelodramaticsoil.com
 +.stumbledmetropolitanpad.com
-+.strugglingelevenfallout.com
 +.strollthrillingmeltdown.com
 +.strandedidiommembership.com
 +.stoppedgipsyundoubtedly.com
@@ -37905,7 +37897,6 @@ scx.ddns.net
 +.braveryhandsomeincline.com
 +.brakescucumbersubjects.com
 +.bouncelightenafternoon.com
-+.botanyreadersettlement.com
 +.bootyregisteredcleared.com
 +.bluntabsolutionoblique.com
 +.blownaccidentallypagan.com
@@ -44815,6 +44806,7 @@ fkp.samsungcloudsolution.com
 +.typicalexecuted.com
 +.twistneedylever.com
 +.manags.twilightparadox.com
++.tv-jiangnantiyu.com
 +.tuyendungshopee.com
 +.cl.turkishairlines.com
 +.turbulentobject.com
@@ -44872,6 +44864,7 @@ fkp.samsungcloudsolution.com
 +.tocometothepoin.com
 +.tobaccosturgeon.com
 +.titan-gel-extra.com
++.tip-leisusports.com
 +.tionininanceena.com
 +.tinthuongvietvn.com
 +.tinsukien2021vn.com
@@ -45120,6 +45113,7 @@ fkp.samsungcloudsolution.com
 +.searchdimension.com
 +.sdcreditservice.com
 +.scure-royaibamk.com
++.scr-jiebaoscore.com
 +.scowpoppanasals.com
 +.scowlswitchmore.com
 +.scorchduckbytes.com
@@ -47565,7 +47559,6 @@ otn.samsungcloudcdn.com
 +.kerrysexchange.com
 +.kelleyservices.com
 +.keentiedknives.com
-+.karthliunstagy.com
 +.kaaairoo549kai.com
 +.juveniletennis.com
 +.justicebracket.com
@@ -48744,7 +48737,6 @@ otn.samsungcloudcdn.com
 +.wackel-dackel.com
 +.vvvietcombank.com
 +.vviietcombank.com
-+.vutftxlhysrvn.com
 +.afm.vtmarketsindo.com
 +.afm.vtglobalgroup.com
 +.vpn-risk-free.com
@@ -49599,7 +49591,6 @@ otn.samsungcloudcdn.com
 +.nentsyshruggl.com
 +.neglectoffset.com
 +.nearbyfertile.com
-+.ndysegyffoixr.com
 +.naughty-black.com
 +.natureslovers.com
 +.naturainmente.com
@@ -50054,7 +50045,6 @@ otn.samsungcloudcdn.com
 +.haffnetworkmm.com
 +.habitualhumor.com
 +.habirimodioli.com
-+.gyrallydaiker.com
 +.gypsyhourpoke.com
 +.guitarinterim.com
 +.data.guardianbikes.com
@@ -56625,6 +56615,7 @@ otn.samsungcloudcdn.com
 +.vstvst3toc.com
 +.vstvst2toc.com
 +.vstvst1toc.com
++.vs-wending.com
 +.vrsecurego.com
 +.vroom24365.com
 +.vpb-hanmuc.com
@@ -64041,6 +64032,7 @@ samsungeurope.eu.qualtrics.com
 +.sieumomo.com
 +.sieuatoc.com
 +.shuffele.com
++.shrsgame.com
 +.shoptule.com
 +.shoptrau.com
 +.shopp777.com
@@ -65065,7 +65057,6 @@ mepodownload.mediatek.com
 +.hodllane.com
 +.protection.hnpolice.com
 +.hlviet84.com
-+.hltbnvcu.com
 +.protection.hkpolice.com
 +.log.hitsteps.com
 +.hitslink.com
@@ -65949,6 +65940,7 @@ huawei.facebook.com
 +.share.anatomie.com
 +.amomales.com
 +.static.ammoland.com
++.amintart.com
 +.amecstry.com
 +.amcestey.com
 +.amazonxk.com
@@ -68026,7 +68018,6 @@ healthdata.hicloud.com
 +.static.bidrich.com
 +.ad.bidrich.com
 +.bidgear.com
-+.ntus.bidease.com
 +.bidclix.com
 +.banner.betwwts.com
 +.ads.bethard.com
@@ -68422,6 +68413,7 @@ healthdata.hicloud.com
 +.zlink0.com
 +.zlibis.com
 +.zkbkat.com
++.zjchao.com
 +.zivtux.com
 +.zivroq.com
 +.refer.zipcar.com
@@ -70413,6 +70405,7 @@ healthdata.hicloud.com
 +.apmebf.com
 +.apcort.com
 +.ads.asset.aparat.com
++.aosldz.com
 +.aorpum.com
 +.c.anytrx.com
 +.ansear.com
@@ -72189,7 +72182,6 @@ healthdata.hicloud.com
 +.hqjt.com
 +.refer.hpso.com
 +.hive.com
-+.track.hily.com
 +.heap.com
 +.he2d.com
 +.hdww.com
@@ -72913,7 +72905,6 @@ healthdata.hicloud.com
 +.jh42fn43jcenplbqxr18f1.cfd
 +.ih229pxl4fltlv9kwjoghw.cfd
 +.hw2umknokjpc5eiwe8353f.cfd
-+.hiyeu553nuypvbz13ce5qc.cfd
 +.gyzjp4ecwwzm8gfcz5im65.cfd
 +.g5hxng7tc1kht66b3rro74.cfd
 +.fwhiutrfvker4njnc4qyul.cfd
@@ -81721,7 +81712,6 @@ ns11.whois.co.kr
 +.hcitukntuo.in
 +.www2.gorillavid.in
 +.coinsecure.in
-+.atngumgams.in
 +.sfaobvfic.in
 +.saouryadi.in
 +.pr-wealth.in

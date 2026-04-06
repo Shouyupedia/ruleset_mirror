@@ -1,5 +1,5 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Mon, 06 Apr 2026 13:21:13 GMT
+! Last modified: Mon, 06 Apr 2026 17:36:25 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
@@ -5433,6 +5433,7 @@
 ||lel27q9eleftuv.rest^
 ||kxwj7j8i45l61x.rest^
 ||kq2p4j4ck27rbz.rest^
+||h8btc1cy8v4um3.rest^
 ||grvxmel3c7g61l.rest^
 ||crhk335rvg9tfi.rest^
 ||c23vizuyykxbqw.rest^
@@ -5711,6 +5712,7 @@
 ||thrivessolands.qpon^
 ||terniontertian.qpon^
 ||tempeanjuamave.qpon^
+||techilymuskish.qpon^
 ||swathesdiurons.qpon^
 ||stuckenthimber.qpon^
 ||strollsbustier.qpon^
@@ -5805,6 +5807,7 @@
 ||briaredbreaker.qpon^
 ||boringscongrue.qpon^
 ||bombousdisrest.qpon^
+||boatingbedlamp.qpon^
 ||bezantephiroze.qpon^
 ||bedfootoficina.qpon^
 ||bazarobmitsaya.qpon^
@@ -5953,6 +5956,7 @@
 ||cincharivages.qpon^
 ||cantrefvelate.qpon^
 ||cancanswimble.qpon^
+||cameoedzinzar.qpon^
 ||biozoneteruah.qpon^
 ||biotomylintel.qpon^
 ||bienttresting.qpon^
@@ -6048,6 +6052,7 @@
 ||lowboyrehair.qpon^
 ||loticsuavely.qpon^
 ||lapeisedhehe.qpon^
+||kolaspravity.qpon^
 ||knarleluates.qpon^
 ||kendoanticly.qpon^
 ||itczefiacres.qpon^
@@ -7043,6 +7048,7 @@
 ||shermanwosometoxemic.cyou^
 ||sacbutsforsakebatler.cyou^
 ||remillsynangederange.cyou^
+||pumpleungreenspieler.cyou^
 ||pouchedcantlebeverse.cyou^
 ||plenismagistorregear.cyou^
 ||nudismsmomishmalmier.cyou^
@@ -7148,6 +7154,7 @@
 ||goonunjudgeoverbet.cyou^
 ||glorebistortopiism.cyou^
 ||gaucyvigilsepheboi.cyou^
+||erviljarbotsmoodge.cyou^
 ||embusoctanemagbote.cyou^
 ||dullmilacredolmans.cyou^
 ||doatscreakyantique.cyou^
@@ -7244,6 +7251,7 @@
 ||eneidmestcurtest.cyou^
 ||douglquotenecked.cyou^
 ||divantargewheeps.cyou^
+||chunkwastecuppen.cyou^
 ||1.ccriff5fggzexg95.cyou^
 ||boyauxalkydkhoja.cyou^
 ||boatensuerrefete.cyou^
@@ -7308,6 +7316,7 @@
 ||riciniclatrobe.cyou^
 ||ratfinkculches.cyou^
 ||pompouscacicus.cyou^
+||poetdomwineier.cyou^
 ||placardgoldeye.cyou^
 ||pewterscanonry.cyou^
 ||perninecochero.cyou^
@@ -7569,6 +7578,7 @@
 ||shackogalyak.cyou^
 ||saverlionism.cyou^
 ||sapajoupapua.cyou^
+||saimirisahme.cyou^
 ||resortsyulan.cyou^
 ||rasterlisped.cyou^
 ||quailsspoony.cyou^
@@ -18820,6 +18830,7 @@
 ||info.smartstrategyonline.com^
 ||secure.smart-enterprise-52.com^
 ||smallestpawsmention.com^
+||slippersexamination.com^
 ||egdeb.slaterockautomation.com^
 ||khohn.skyhighpartyrentals.com^
 ||data.email.sixflagsqiddiyacity.com^
@@ -24088,6 +24099,7 @@
 ||tr.news.younited-credit.com^
 ||yoc.younited-credit.com^
 ||pr.yokohama-chokin.com^
+||ynfdjcdjktupuub.com^
 ||pelu.yiguspeluqueria.com^
 ||ygfgpsloqvtqmmo.com^
 ||meta-events.yellowstonepark.com^
@@ -29991,6 +30003,7 @@
 ||api.viverderesina.com^
 ||load.g.vivantilondon.com^
 ||rjoai.vitruvianform.com^
+||vitlgobgiayse.com^
 ||uftis.vitaminshoppe.com^
 ||zkstp.visualcomfort.com^
 ||rtb-useast-v4.vistarsagency.com^
@@ -32629,6 +32642,7 @@
 ||ss.ecobiomanager.com^
 ||sfp7.eco-conscient.com^
 ||marketing.echohealthinc.com^
+||ebtdptbytdmnk.com^
 ||starget.dev15showtickets.ebgaffiliates.com^
 ||starget.dev8showtickets.ebgaffiliates.com^
 ||ebakvswalujjf.com^
@@ -34174,6 +34188,7 @@
 ||typicalteeth.com^
 ||tyieyjfawbdb.com^
 ||twvujrrukfse.com^
+||twpewseamhrz.com^
 ||cvjrv.twowaydirect.com^
 ||goat.twoistoomany.com^
 ||twistconcept.com^
@@ -35164,6 +35179,7 @@
 ||queachycorer.com^
 ||sever.quarterproof.com^
 ||quantumshine.com^
+||quantisicily.com^
 ||elnbz.qualitylogic.com^
 ||sst.qualificaseg.com^
 ||dados.qualcarreira.com^
@@ -38989,6 +39005,7 @@
 ||tubetitties.com^
 ||track.tuagenciaia.com^
 ||sst.tuagenciaia.com^
+||tswanafldxt.com^
 ||d.tsc-experts.com^
 ||gtm.trywheediez.com^
 ||fine.tryvytadose.com^
@@ -42493,6 +42510,7 @@
 ||sst.cteensummer.com^
 ||gtm.csmegastore.com^
 ||reward-api.csjplatform.com^
+||csectskefti.com^
 ||cryptopools.com^
 ||cryptonoter.com^
 ||cryptonator.com^
@@ -44648,6 +44666,7 @@
 ||eulerian.tgv-europe.com^
 ||cqnnp.tginatural.com^
 ||metrics.tgifridays.com^
+||tggrurcutf.com^
 ||tgdlqeqpbh.com^
 ||tfyam4np2y.com^
 ||tfsnczzpek.com^
@@ -46042,6 +46061,7 @@
 ||nws5ay4cr2.com^
 ||nwq7zxf6jt.com^
 ||nw-rail-03.com^
+||nvgst8gvjy.com^
 ||nuwurorwbr.com^
 ||didzrr.nutraholic.com^
 ||yiferh.nursemates.com^
@@ -46901,6 +46921,7 @@
 ||l9moubljmc.com^
 ||l5pzbzfnjm.com^
 ||l2qdfaq62o.com^
+||l1bj5pxqzk.com^
 ||server.kyanatmart.com^
 ||kwxamtipoc.com^
 ||k.kwslovenia.com^
@@ -47961,6 +47982,7 @@
 ||at.framerdevs.com^
 ||frailfruit.com^
 ||fr701hx5vi.com^
+||fqrzicbrhz.com^
 ||fqoybwos7f.com^
 ||fqhakaihvu.com^
 ||fpgedsewst.com^
@@ -54310,6 +54332,7 @@
 ||analytics.hiexpress.com^
 ||hi407ezyz.com^
 ||hhuobnajd.com^
+||hhltugvtk.com^
 ||czvdlp.hgregoire.com^
 ||sst.hftfunded.com^
 ||hfrkamhoz.com^
@@ -58513,6 +58536,7 @@
 ||biminibliss.rwbimini.com^
 ||rvkhazel.com^
 ||rvbnqojv.com^
+||rutagbkx.com^
 ||rustpool.com^
 ||ruranews.com^
 ||sffyrc.ruparupa.com^
@@ -60265,6 +60289,7 @@
 ||mqmja.jdsports.com^
 ||jdmzkxry.com^
 ||jdhsx357.com^
+||jcvwmstu.com^
 ||ttmetrics.jcpenney.com^
 ||metrics.jcpenney.com^
 ||kwvbhj.jcpenney.com^
@@ -77341,6 +77366,7 @@
 ||complintetaniachuroya.cfd^
 ||cerosinsibylicdossier.cfd^
 ||bwegw51uu8uxbvoiy7pfp.cfd^
+||bursteddesandsgooneys.cfd^
 ||benzolepagodascredens.cfd^
 ||banksiahaeminsbuildup.cfd^
 ||apishlykillochmappila.cfd^
@@ -77736,6 +77762,7 @@
 ||paperedunmitre.cfd^
 ||panochaolibene.cfd^
 ||outjutsagrapha.cfd^
+||outbuzzhoodoes.cfd^
 ||oustersprovide.cfd^
 ||ooplastspirlie.cfd^
 ||obovatepulping.cfd^
@@ -77765,6 +77792,7 @@
 ||jealoustartana.cfd^
 ||jayeshtistopsy.cfd^
 ||j6wbzu8v37qi1h.cfd^
+||j4qxryhfbz51nk.cfd^
 ||iolitescroupon.cfd^
 ||ingroupsmokily.cfd^
 ||hlmbi13ngxxqn4.cfd^
@@ -77989,6 +78017,7 @@
 ||virtuestoque.cfd^
 ||veterorselle.cfd^
 ||vendsborrows.cfd^
+||usaronrajahs.cfd^
 ||ureteraceric.cfd^
 ||upttoreremet.cfd^
 ||unseamdeaned.cfd^
@@ -78154,6 +78183,7 @@
 ||liftedquack.cfd^
 ||kyartoggled.cfd^
 ||kugepaiwari.cfd^
+||kluckskatol.cfd^
 ||kendyflewit.cfd^
 ||jutebestrid.cfd^
 ||juanbulwand.cfd^
@@ -93535,6 +93565,7 @@
 ||obwhpycr.in^
 ||nunrzusi.in^
 ||tracking.nudgepay.in^
+||npikafhu.in^
 ||utics.nodejibi.in^
 ||niromzkm.in^
 ||nhuzushu.in^

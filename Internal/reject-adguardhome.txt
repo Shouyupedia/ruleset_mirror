@@ -1,5 +1,5 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Sun, 12 Apr 2026 06:22:38 GMT
+! Last modified: Sun, 12 Apr 2026 09:54:23 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
@@ -158,9 +158,11 @@
 ||yiwqcxwajqouq.website^
 ||yfrhkaffsbovk.website^
 ||yfahvnahxobkn.website^
+||yezcqtumbsklw.website^
 ||yeszrgtanxjup.website^
 ||ycxxulehaukaw.website^
 ||xzkhyniygabes.website^
+||xzgcezixdaqjf.website^
 ||xyicgmkbjemlh.website^
 ||xxmkvbqrbqcrz.website^
 ||xwxfocmndqvar.website^
@@ -255,6 +257,7 @@
 ||udophtkooyzew.website^
 ||ubvupyixsnkwr.website^
 ||uabvpjljbbaqa.website^
+||tzqgwxfgruelq.website^
 ||tyuwgkergjvbn.website^
 ||twflbqhesejhz.website^
 ||twcwzjckuuubq.website^
@@ -510,6 +513,7 @@
 ||itjjqntjvrscd.website^
 ||isovwtytofnzy.website^
 ||islkopcuomvsr.website^
+||ilegmeqrbxnwv.website^
 ||ikkkuqytkttyu.website^
 ||ijmrqatwfuemc.website^
 ||ijdbmjqwzrcdw.website^
@@ -596,6 +600,7 @@
 ||emrjmsbdgtlhl.website^
 ||ejvpnryktslwp.website^
 ||ejqmzpbhebimq.website^
+||ejgsjmhnuwhws.website^
 ||eiljtxtpaajoh.website^
 ||ehiequsqbphyi.website^
 ||eevifrenxkyui.website^
@@ -633,6 +638,7 @@
 ||ctpeniehlsqmq.website^
 ||ctgatzmzxwzsa.website^
 ||crqnmxczwaoeq.website^
+||cqqxewpxcfpop.website^
 ||cqibwlthohukl.website^
 ||cnuyogorlqsox.website^
 ||cndkpvokgivtq.website^
@@ -1002,6 +1008,7 @@
 ||zoiixfvrxcxlp.online^
 ||zlrwxkrwslawu.online^
 ||zlkdhjiepxqnt.online^
+||zlahlzealfauo.online^
 ||zibgvyxttkjtc.online^
 ||zgijmnnrexeej.online^
 ||zeoczbctghmgh.online^
@@ -1017,6 +1024,7 @@
 ||yojyfahrhuonw.online^
 ||ynurfigldblbt.online^
 ||ynbgqdgufdydg.online^
+||ymcyedebhrdxy.online^
 ||yluemmumvvneh.online^
 ||yklrlvwkduzvw.online^
 ||yjsnhansijjpy.online^
@@ -1027,6 +1035,7 @@
 ||yffsygroetogq.online^
 ||ydjsycnzctwoh.online^
 ||ydgvlkrbsbdgn.online^
+||ycvobjkptowgu.online^
 ||ycvhkfhflhirq.online^
 ||yboiqefexmcoh.online^
 ||ybfqkggkcivnv.online^
@@ -1174,6 +1183,7 @@
 ||srhwazpvlyxua.online^
 ||sqrutmdxmgsho.online^
 ||snfzchkdslxfi.online^
+||snaeyjnavvojo.online^
 ||smegyjrybbzyt.online^
 ||sltssbtnfnanx.online^
 ||sltkvfghleuui.online^
@@ -2377,6 +2387,8 @@
 ||vwkrrwxbuvotg.space^
 ||vtilbcxygwyac.space^
 ||vrauwhahnrjuh.space^
+||vpyahznkwoqjm.space^
+||vpptotruslsot.space^
 ||vplxmpagryjvl.space^
 ||vnipnfcvgobqk.space^
 ||vmhnqqckpajxv.space^
@@ -2411,6 +2423,7 @@
 ||uazhaixvzaggm.space^
 ||tzpyzqycmyoev.space^
 ||tyijgwwnaaxwc.space^
+||txjgnbljkekft.space^
 ||twqcylkvuahqk.space^
 ||tvqamnmdgqaes.space^
 ||tunosxicehwpb.space^
@@ -2486,6 +2499,7 @@
 ||quqakrfbhvpwk.space^
 ||qufpseftrfcam.space^
 ||qtiokogebgvdu.space^
+||qsjjoaaoeexvm.space^
 ||qqqfrcxyeecpp.space^
 ||qqhuwthhmxeuc.space^
 ||qptzeceqokpup.space^
@@ -2602,6 +2616,7 @@
 ||lduzoqqgmfnhv.space^
 ||lctkpnqbzfmcs.space^
 ||lclxufvsebuhi.space^
+||lcgjjilmrlzkk.space^
 ||lblscpmfxuzqq.space^
 ||kytrzcenkcvyo.space^
 ||kykpybijmerta.space^
@@ -3536,6 +3551,7 @@
 ||server.betrayalfinder.site^
 ||wyb.anunciosonline.site^
 ||stape.7diascomcamila.site^
+||zzwhyoheusgza.site^
 ||zyzapldgfoosg.site^
 ||zypsnobkgkthp.site^
 ||zxjshtdjvtfhb.site^
@@ -3844,6 +3860,7 @@
 ||njdjdaoozplxj.site^
 ||niessppihfnjo.site^
 ||nhnkhosypgwvh.site^
+||ngbmozpzslhtu.site^
 ||nfzdsczdlnbjm.site^
 ||nezigkhbowjhs.site^
 ||neynypjufelcs.site^
@@ -3868,6 +3885,7 @@
 ||mlkfwcwiixypj.site^
 ||mjtpwtxclfnkt.site^
 ||minsxgvkokxgu.site^
+||mgvfsxykybhze.site^
 ||mbacufxdxoqso.site^
 ||mavxkcvueybiu.site^
 ||mafllmgwrqucr.site^
@@ -3883,6 +3901,7 @@
 ||lmfbutkwjiiay.site^
 ||lluqlhdvvucid.site^
 ||lkfiyeddqehyj.site^
+||ljuacmmwrhmle.site^
 ||lhxqfxhqwoiiq.site^
 ||lfeqrcbqjfnoc.site^
 ||lesjhcskvsgjw.site^
@@ -5354,6 +5373,7 @@
 ||nqbmw3uwik6plx.rest^
 ||nip6mgvw1otkz6.rest^
 ||kxwj7j8i45l61x.rest^
+||kxg49cluu2t3g7.rest^
 ||h8btc1cy8v4um3.rest^
 ||grvxmel3c7g61l.rest^
 ||e8gwhwefgi187h.rest^
@@ -5512,6 +5532,7 @@
 ||talentsschoolpunic.qpon^
 ||sandierlemurtedium.qpon^
 ||sabanhexitoltonify.qpon^
+||risertaigleliangle.qpon^
 ||ridgydefleasoboles.qpon^
 ||ridgedtrophallohan.qpon^
 ||rezoneproggedabies.qpon^
@@ -5809,6 +5830,7 @@
 ||saltyjunkerma.qpon^
 ||salmonbestuck.qpon^
 ||sagelyintoned.qpon^
+||rummescanelle.qpon^
 ||rossertiptoes.qpon^
 ||roseletunnose.qpon^
 ||rimplereforce.qpon^
@@ -7015,6 +7037,7 @@
 ||dyvoursruelikecharre.cyou^
 ||deicerarabiststickly.cyou^
 ||crawfulfloozysliding.cyou^
+||coryzaproximarowport.cyou^
 ||clobberabluentweeded.cyou^
 ||chakobusteamerglazer.cyou^
 ||birkieserwiniababied.cyou^
@@ -7076,6 +7099,7 @@
 ||bogworttampooncothe.cyou^
 ||bilevehyppedsamaras.cyou^
 ||bemolelanguidepirot.cyou^
+||beflearappergobbets.cyou^
 ||baroccoexhancesmall.cyou^
 ||apexesjessantblotch.cyou^
 ||zyryancassenarefel.cyou^
@@ -7249,6 +7273,7 @@
 ||weekwambondage.cyou^
 ||warmestunfatty.cyou^
 ||waipirolending.cyou^
+||wafdughretinic.cyou^
 ||z7.w6cue881c6wy9o.cyou^
 ||i.vroltizj8zwmr4.cyou^
 ||untipsyzincked.cyou^
@@ -7616,6 +7641,7 @@
 ||clintsabaoth.cyou^
 ||chuckswinges.cyou^
 ||choulepanful.cyou^
+||ceciliabotts.cyou^
 ||ceasmicdistn.cyou^
 ||cammasmasker.cyou^
 ||burrymallein.cyou^
@@ -19864,7 +19890,6 @@
 ||metrics.mastercardadvisors.com^
 ||masqueradethousand.com^
 ||mascarapersonality.com^
-||marissasharecareer.com^
 ||stape.marcondesmadureira.com^
 ||tgs.maravillaslatierra.com^
 ||servcliente.marathon-sports-ec.com^
@@ -26720,6 +26745,7 @@
 ||ukankingwithea.com^
 ||uhregkricbcqli.com^
 ||ufgqsvqtxvsrtq.com^
+||udrejwmpascgis.com^
 ||udeyzbhucafcod.com^
 ||ucvvbkdkmodoyj.com^
 ||app.ucirvinesports.com^
@@ -28003,6 +28029,7 @@
 ||shakil.leaderformulas.com^
 ||fvdm.le-petit-hotel.com^
 ||ldqudibcstsuyy.com^
+||lbsdxpyiuukooy.com^
 ||lawmakecluther.com^
 ||lawfulpatience.com^
 ||sst.laventurehotel.com^
@@ -34815,6 +34842,7 @@
 ||info.safety-kleen.com^
 ||spots.sabrinablond.com^
 ||sabonakapona.com^
+||rywxjwoialii.com^
 ||ryowebwallet.com^
 ||ryo-currency.com^
 ||p.ryanhalliday.com^
@@ -38704,6 +38732,7 @@
 ||irqewz.vilebrequin.com^
 ||stape.viladomorro.com^
 ||vihsfteqkcd.com^
+||vigswobchob.com^
 ||onnnn.vievebeauty.com^
 ||video-serve.com^
 ||sgtm.vicofoodbox.com^
@@ -39976,6 +40005,7 @@
 ||qualiclicks.com^
 ||gtm.qualebroker.com^
 ||qtvimspxpee.com^
+||qsepgujcjrr.com^
 ||qqjildbaefe.com^
 ||qoupbblbkrk.com^
 ||sst.qookie-baby.com^
@@ -44281,6 +44311,7 @@
 ||ufengjnskl.com^
 ||ueuwvgco19.com^
 ||uetx75ibcu.com^
+||udtnjdhtdb.com^
 ||udghekzitv.com^
 ||ucuypyhcns.com^
 ||app.uclabruins.com^
@@ -44777,6 +44808,7 @@
 ||squeakzinc.com^
 ||tracker.sqreemtech.com^
 ||sqmn4wncty.com^
+||sqlpstudbu.com^
 ||sqerqxljna.com^
 ||sprysummit.com^
 ||spry-trick.com^
@@ -45450,6 +45482,7 @@
 ||qtqv3cy43w.com^
 ||qsmwycdrdh.com^
 ||qrumphathu.com^
+||qoptcekpwa.com^
 ||app.qnasdaqomx.com^
 ||qmj89db55u.com^
 ||qlfqkjluvz.com^
@@ -48179,6 +48212,7 @@
 ||trk.encore-can.com^
 ||a8.en-courage.com^
 ||stape.emzi-paris.com^
+||ems59cq77u.com^
 ||yugxerli.ems-dental.com^
 ||stape.deliverydesucesso.empresa-br.com^
 ||stapecd.bipocontabilidade.empresa-br.com^
@@ -50201,6 +50235,7 @@
 ||22712af0b1.com^
 ||2250c8daae.com^
 ||224oztn8dq.com^
+||223qu6jnqv.com^
 ||222aa333bb.com^
 ||22-trk-srv.com^
 ||21ojgpuwg6.com^
@@ -58421,6 +58456,7 @@
 ||ss.scanbolt.com^
 ||stats.scalesql.com^
 ||scakuvap.com^
+||sbjelpem.com^
 ||saymedia.com^
 ||somni.cn.saxobank.com^
 ||omni.cn.saxobank.com^
@@ -77232,6 +77268,7 @@
 ||hzwulbxmhxrjuzgywt7zyopmvn4wzrnev.cfd^
 ||hc8uf94knvyq3gm9km187wuct3wx6r5w2.cfd^
 ||9h6wuyen6kmm6rptqujjm2mkuij3bbpo6.cfd^
+||z4q4lg98hgwcg6g87nncp38g6ff891ee.cfd^
 ||x3nog4kmx8x38ui15gyz91211lyn99mc.cfd^
 ||mocuvmnjp1p83l2g9lgvu1qcghg3ibrg.cfd^
 ||5z35ikghjnh7zry1vxn2l619b49ug9b7.cfd^
@@ -77993,6 +78030,7 @@
 ||darkledhainai.cfd^
 ||curlinginborn.cfd^
 ||curacefondouk.cfd^
+||crampygrucche.cfd^
 ||coopedcowhide.cfd^
 ||claggynegress.cfd^
 ||citreanjizzen.cfd^
@@ -78095,6 +78133,7 @@
 ||racemeaboded.cfd^
 ||quantiburrel.cfd^
 ||quahaugpflag.cfd^
+||putteecoorie.cfd^
 ||prolansgates.cfd^
 ||poultophelia.cfd^
 ||poscaschwarz.cfd^
@@ -78117,6 +78156,7 @@
 ||luckingkiers.cfd^
 ||loggatmowing.cfd^
 ||lemmusgrinny.cfd^
+||lappetboites.cfd^
 ||lamiidsagaie.cfd^
 ||lakeyscoured.cfd^
 ||kobanlinkier.cfd^
@@ -78146,6 +78186,7 @@
 ||desiresdimin.cfd^
 ||cymlinchueta.cfd^
 ||cupriteoriel.cfd^
+||comfitdossel.cfd^
 ||clodshostage.cfd^
 ||civvyroxbury.cfd^
 ||chefsshipman.cfd^
@@ -78168,6 +78209,7 @@
 ||amidolrfound.cfd^
 ||alisholoroso.cfd^
 ||albifyalltud.cfd^
+||agoutalanker.cfd^
 ||aeaeanphilip.cfd^
 ||accorddancer.cfd^
 ||zinkghoster.cfd^
@@ -78194,6 +78236,7 @@
 ||senaahgaura.cfd^
 ||sarcelflues.cfd^
 ||sapidequine.cfd^
+||sapekcabobs.cfd^
 ||sanifylinga.cfd^
 ||salvingjews.cfd^
 ||quarionymca.cfd^
@@ -93367,6 +93410,7 @@
 ||orkktyozlrm.in^
 ||opzxapovfra.in^
 ||ontrimpuctp.in^
+||omfmfaxkion.in^
 ||olsgwowpoli.in^
 ||ohdaqtkuvnt.in^
 ||ogfjibazwmi.in^
@@ -93429,6 +93473,7 @@
 ||rticuhrahv.in^
 ||rmuommjaxr.in^
 ||rmujceobds.in^
+||rinmasrfyq.in^
 ||dl.right2vote.in^
 ||rartcygrya.in^
 ||vk.phonevilla.in^
@@ -106210,6 +106255,7 @@
 ||thinkingdata.cn^
 ||somni.mapac.thermofisher.cn^
 ||8131.qizhihaotian.cn^
+||mountaintoys.cn^
 ||iconworkshop.cn^
 ||a1.firefoxchina.cn^
 ||zhaozecheng.cn^

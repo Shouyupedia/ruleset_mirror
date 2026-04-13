@@ -3,9 +3,9 @@
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `d72534e2c2fb7cd73bac93856488d0f04a011cbb`
-- Upstream head: `2903951caabf18e77bf1d4dcf9a2f352fd13efc4`
-- Time (UTC): 2026-04-13 08:23:38Z
+- Updated from: `1ad20df701c75d28ac09cef57ab0a1bada5c52fa`
+- Upstream head: `25a6021a76b6dd5b341da9d5e39ffac16689f1dd`
+- Time (UTC): 2026-04-13 14:09:41Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false

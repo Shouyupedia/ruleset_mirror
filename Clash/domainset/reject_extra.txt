@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-04-13T08:21:02.529Z
-# Size: 84772
+# Last Updated: 2026-04-13T10:30:24.791Z
+# Size: 84773
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -4134,6 +4134,7 @@
 +.xbpiwtgsrqbfr.online
 +.xbaykxmlvdkkh.online
 +.xazmshwtsxkne.online
++.xavraffhvoljg.online
 +.xasedformed-e.online
 +.xasedformed-c.online
 +.xasedformed-b.online

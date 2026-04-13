@@ -1,5 +1,5 @@
 ! Title: Sukka's Ruleset - AdGuardHome Blocklist
-! Last modified: Mon, 13 Apr 2026 08:21:12 GMT
+! Last modified: Mon, 13 Apr 2026 10:30:35 GMT
 ! Expires: 6 hours
 ! License: https://github.com/SukkaW/Surge/blob/master/LICENSE
 ! Homepage: https://github.com/SukkaW/Surge
@@ -261,6 +261,7 @@
 ||udplgiotjursc.website^
 ||udophtkooyzew.website^
 ||ubvupyixsnkwr.website^
+||ubizwydxpctut.website^
 ||uabvpjljbbaqa.website^
 ||tzqgwxfgruelq.website^
 ||tyuwgkergjvbn.website^
@@ -1199,6 +1200,7 @@
 ||rzsqfxjdrtdsc.online^
 ||rzndvgmnmjqqd.online^
 ||rzbysubusbyzc.online^
+||rxmklgldqtxor.online^
 ||rxbmckvoxesqa.online^
 ||rtdpfwzxfajfl.online^
 ||rsxtxfgrowhzm.online^
@@ -1466,6 +1468,7 @@
 ||ghktwxuzvuufr.online^
 ||ggrymktmbbauf.online^
 ||ggpkyvsokroop.online^
+||geesmqgnmzpyq.online^
 ||gdxvvxfapccuh.online^
 ||gdaktkrxjfohf.online^
 ||gcmogssktstxp.online^
@@ -2801,6 +2804,7 @@
 ||dnzxncwmglrwy.space^
 ||dkzjrdfefnqav.space^
 ||dkpvbyvscxraq.space^
+||dkflbsrscmjnl.space^
 ||dkepsueazpneu.space^
 ||djpgftebohnay.space^
 ||dizhenmeehipj.space^
@@ -2879,6 +2883,7 @@
 ||adehhurslxxmh.space^
 ||acxcfztcvheoa.space^
 ||acibgrucxulrh.space^
+||achaslnoqzspt.space^
 ||aayjfvkskxkez.space^
 ||aavnnupfepbgp.space^
 ||aahcnrijhuwhq.space^
@@ -3825,6 +3830,7 @@
 ||pafgqomjnajho.site^
 ||ozhgliojoehvr.site^
 ||oyovpsltjgvzd.site^
+||oxgacihwhjobk.site^
 ||oxdooomwmztva.site^
 ||owezamhaewjym.site^
 ||oupvfjtyxfxky.site^
@@ -4145,6 +4151,7 @@
 ||cgjrkjtkqvshb.site^
 ||cgiaiptgdasfi.site^
 ||cfsfonftvkcny.site^
+||cfbzstmlazlrg.site^
 ||cebjrqvyienhy.site^
 ||cbjtlyejnhreg.site^
 ||cagaieedrohdv.site^
@@ -5509,6 +5516,7 @@
 ||crustaspeiseflatbed.qpon^
 ||chemicsfakedintaria.qpon^
 ||cannerybariawamuses.qpon^
+||bulbousswoopskempts.qpon^
 ||brawnednonegotipper.qpon^
 ||borersmuskegsrufous.qpon^
 ||bookmankyloecupania.qpon^
@@ -20252,6 +20260,7 @@
 ||definedbootnervous.com^
 ||decoratedmulesanta.com^
 ||decimalediblegoose.com^
+||decimal-impression.com^
 ||dealdivorceathwart.com^
 ||datingprudethimble.com^
 ||dating-honeygirles.com^
@@ -25812,6 +25821,7 @@
 ||decent-negative.com^
 ||tracking.dealeranalytics.com^
 ||dcsomihsehwjfqc.com^
+||dckhrdhwdenqpap.com^
 ||dazedarticulate.com^
 ||fp.dawnhouseliving.com^
 ||gtm.davidguerrerofx.com^
@@ -32731,6 +32741,7 @@
 ||hoverfly.cyberbytesinc.com^
 ||sjrog.cyberbackpack.com^
 ||cwyvketbgfonh.com^
+||cvyvktlakzgbp.com^
 ||cvwdbkfudfbmk.com^
 ||jrhrn.cushionsource.com^
 ||load.rjtpnsou.curviifashion.com^
@@ -57391,6 +57402,7 @@
 ||wpushsdk.com^
 ||wpushorg.com^
 ||server.wponetap.com^
+||wpihnwkr.com^
 ||wpadmngr.com^
 |ftpcontent.worldnow.com^
 ||gtm.workmize.com^
@@ -59281,6 +59293,7 @@
 ||zfljc.obrolabs.com^
 ||obaivrek.com^
 ||oardilin.com^
+||oactgbgf.com^
 ||o1ych4jb.com^
 ||a8.o-tayori.com^
 ||eb.o-b-labo.com^
@@ -77650,6 +77663,7 @@
 ||55yy56n7p2ug15lrwz.cfd^
 ||ygapolususesrisks.cfd^
 ||wxmxrg3551onwl2wq.cfd^
+||wigwamkykedegusts.cfd^
 ||wayangbedunceryke.cfd^
 ||wallaalkylicjaunt.cfd^
 ||voetfencedwedgies.cfd^

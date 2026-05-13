@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Extra
-# Last Updated: 2026-05-13T12:52:47.654Z
-# Size: 84281
+# Last Updated: 2026-05-13T18:51:57.568Z
+# Size: 84266
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -4797,7 +4797,6 @@
 +.qqjtldyoobxpo.online
 +.qqhjdsbubacon.online
 +.qpweyjmudecjc.online
-+.qptghqpgmdqhl.online
 +.qplywkhnlfyfy.online
 +.qphihxqluvito.online
 +.qpgbxpuoepxyb.online
@@ -5040,7 +5039,6 @@
 +.olcrdqatcewmf.online
 +.okpieumcfmrqt.online
 +.oklaozkkitxoz.online
-+.okdcrqtemifgo.online
 +.ojzpcvipynqhw.online
 +.ojheaitunlker.online
 +.oizqaraplcgnr.online
@@ -5158,7 +5156,6 @@
 +.ndhvcwnczxupa.online
 +.ndcuvybsahujj.online
 +.ncszswtpaguzr.online
-+.ncmueymomfesf.online
 +.ncmeojlrybcza.online
 +.ncdplvdquspma.online
 +.ncapocjvsgdba.online
@@ -8131,7 +8128,6 @@
 +.zikgtahaiepkj.space
 +.zijqohihvozks.space
 +.zhylvhqdlkacm.space
-+.zhxceqqghfabh.space
 +.zhmsgznkpenng.space
 +.zhkitttqkbsqr.space
 +.zhhmkiottyxgn.space
@@ -8228,7 +8224,6 @@
 +.yswmdyyqioulk.space
 +.yswebkrszlbzs.space
 +.ysvibeyvsvbrg.space
-+.ysqbnjspxkaff.space
 +.ysbpoaoziiwno.space
 +.yrsdiloikxvyl.space
 +.yrfitmobjkskj.space
@@ -16084,7 +16079,6 @@
 +.pg188imt2hrvyklf5jpj9hmc3bok84jth813l.rest
 +.pbn6qjf1gff552eb1ti8rfnb3362ihkw9lur.rest
 +.2nyo9rwkx1rn7bk62wvpig3onk3fiok4eq7n.rest
-+.jfef3ilp49whwf5l3rle6umgzgt1ejuivtt.rest
 +.fq5w8u5bxwqq79gjqnzjecke93y3z8hf5u8.rest
 +.73rgr7fky1pvcvc2rregcbc4mv6w97gmfjv.rest
 +.15jfoq3ohe9iqihhynnz4wq3ji7946wkpvq.rest
@@ -19573,7 +19567,6 @@
 +.jettonpeeredodalman.cyou
 +.hyahyawetsuitbiders.cyou
 +.huspelcopplekitlope.cyou
-+.hoovervailedmetrics.cyou
 +.hoarserbeastsarunta.cyou
 +.harperflavonelienor.cyou
 +.gorbitshallopvillus.cyou
@@ -19589,7 +19582,6 @@
 +.epigeewhomblehalver.cyou
 +.ecorchemiswirelewie.cyou
 +.dowvebulimiakhahoon.cyou
-+.dizdarburlerspiques.cyou
 +.didymbossingmopeier.cyou
 +.decerpbagandaslayer.cyou
 +.decenerevivedangary.cyou
@@ -29969,7 +29961,6 @@ adx-dre.op.dbankcloud.com.edgekey.net
 +.ad.zetacx.net
 +.zampda.net
 +.track.yetric.net
-+.marketing.trvl.yandex.net
 +.xuezha.net
 +.xhlive.net
 +.adx.xemvtv.net
@@ -31181,7 +31172,6 @@ scx.ddns.net
 +.convincedfashionablehandwriting.com
 +.consolationrunawayunpredictable.com
 +.cognitiveartificialintelligence.com
-+.clinicadentalmariangeleslazcano.com
 +.circumstancesuctionbluffybluffy.com
 +.approachcongratulatedinsecurity.com
 +.affectionatefurniturehypothesis.com
@@ -45580,7 +45570,6 @@ otn.samsungcloudcdn.com
 +.ughjubilantly.com
 +.uewphjjrjqxxt.com
 +.ueeljrxucdwrr.com
-+.udwfivurhnfdv.com
 +.tztuzdxmqhnua.com
 +.tyuknsyenergy.com
 +.tyburnpenalty.com
@@ -47977,7 +47966,6 @@ otn.samsungcloudcdn.com
 +.wuw-telegram.com
 +.banners.wunderground.com
 +.wto-telegram.com
-+.wskavinoetaa.com
 +.wppluginspro.com
 +.wphostingapp.com
 +.worthequally.com
@@ -51968,6 +51956,7 @@ otn.samsungcloudcdn.com
 +.pillscohere.com
 +.piestprevot.com
 +.pictureturn.com
++.pickupclean.com
 +.phoorsubbia.com
 +.phones4less.com
 +.phonalytics.com
@@ -65588,7 +65577,6 @@ healthdata.hicloud.com
 +.flypool.com
 +.flycast.com
 +.flyads1.com
-+.fluctuo.com
 +.ads.flooble.com
 +.flirt4e.com
 +.fivecdm.com
@@ -70561,6 +70549,7 @@ healthdata.hicloud.com
 +.ringcleas.sa.com
 +.guthealth.sa.com
 +.curejoint.sa.com
++.criticals.sa.com
 +.salezone.sa.com
 +.perfecct.sa.com
 +.livsffer.sa.com
@@ -70569,6 +70558,7 @@ healthdata.hicloud.com
 +.brainns.sa.com
 +.crrect.sa.com
 +.nbtp1.sa.com
++.fresh.sa.com
 +.ru.com
 +.adv.r7.com
 +.show-msgch.qq.com
@@ -71487,7 +71477,6 @@ healthdata.hicloud.com
 +.lithicsulaibsings.cfd
 +.lekythistowingeel.cfd
 +.lankestsugispitau.cfd
-+.jr5wtgo7v273wfgg9.cfd
 +.jostledsibsmalmed.cfd
 +.jemmiedshtunqueen.cfd
 +.jct83bclvg8c7h91f.cfd
@@ -72373,7 +72362,6 @@ healthdata.hicloud.com
 +.aggrossomeone.cfd
 +.agencydonjons.cfd
 +.affreuxtracer.cfd
-+.accoastquinic.cfd
 +.abatiserector.cfd
 +.zoismeparchs.cfd
 +.yatterwallie.cfd
@@ -72621,7 +72609,6 @@ healthdata.hicloud.com
 +.ghoulshuldah.cfd
 +.garlicwedgie.cfd
 +.gannetsprigs.cfd
-+.fruityarbors.cfd
 +.friedwlecche.cfd
 +.foggilytraps.cfd
 +.lg.farranthants.cfd
@@ -79298,7 +79285,6 @@ ns11.whois.co.kr
 +.opzxapovfra.in
 +.ontrimpuctp.in
 +.omfmfaxkion.in
-+.oftahmqpuon.in
 +.obfjheamcar.in
 +.mwizcirifgi.in
 +.mmuturmweak.in
@@ -79376,7 +79362,6 @@ ns11.whois.co.kr
 +.axdawwcwiq.in
 +.avdoqgozll.in
 +.atngumgams.in
-+.atdxamakqo.in
 +.ascazxninc.in
 +.ahxnkoskyo.in
 +.adjfiramdo.in

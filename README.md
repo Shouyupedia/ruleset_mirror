@@ -3,14 +3,14 @@
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `74bed307ec1600fe6bbccb9ff3801184ab673c13`
-- Upstream head: `3f35fe42fb55525e25fc2a23d12b31bf076e2b05`
-- Time (UTC): 2026-06-20 04:42:24Z
+- Updated from: `ea9072e9477cebdd87a96359600ed5a8078fdfb0`
+- Upstream head: `b3051dc41e02bbdd11bdcc45f14a1d56169468c1`
+- Time (UTC): 2026-06-20 09:43:54Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
-- Updated files: 0
-- Added files: 0
+- Updated files: 19
+- Added files: 1
 - Upstream deleted but kept: 0
 - Skipped files (ratio>0.5 AND changed>=10): 0
 

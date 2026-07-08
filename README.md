@@ -3,13 +3,13 @@
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `e164bced9f12c5c74e32809d1f6b5d463693c881`
-- Upstream head: `dd6e96154cf698a5f4b8745ed2ca7b7c3d942ba0`
-- Time (UTC): 2026-07-08 14:42:43Z
+- Updated from: `84299c8d6fbc652d4f3f5211bc4d2cca7e7c81ed`
+- Upstream head: `4e600a3e1e733ba828a4922e22a1e19a5f1c6f14`
+- Time (UTC): 2026-07-08 19:56:56Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
-- Updated files: 0
+- Updated files: 5
 - Added files: 0
 - Upstream deleted but kept: 113
 - Skipped files (ratio>0.5 AND changed>=10): 168
@@ -20,10 +20,10 @@
 - `Clash/domainset/download.txt` (ratio=1.9428, changed=3835, add=1919, del=1916, base_lines=1971, new_lines=1974)
 - `Clash/domainset/game-download.txt` (ratio=1.3750, changed=88, add=44, del=44, base_lines=64, new_lines=64)
 - `Clash/domainset/icloud_private_relay.txt` (ratio=0.5882, changed=10, add=5, del=5, base_lines=17, new_lines=17)
-- `Clash/domainset/reject.txt` (ratio=1.9964, changed=229929, add=115099, del=114830, base_lines=114900, new_lines=115169)
-- `Clash/domainset/reject_extra.txt` (ratio=1.9799, changed=148424, add=74861, del=73563, base_lines=73669, new_lines=74967)
-- `Clash/domainset/reject_phishing.txt` (ratio=1.9954, changed=251891, add=126179, del=125712, base_lines=125772, new_lines=126239)
-- `Clash/domainset/speedtest.txt` (ratio=1.9528, changed=6409, add=3211, del=3198, base_lines=3269, new_lines=3282)
+- `Clash/domainset/reject.txt` (ratio=1.9954, changed=230074, add=115239, del=114835, base_lines=114900, new_lines=115304)
+- `Clash/domainset/reject_extra.txt` (ratio=1.9795, changed=148460, add=74895, del=73565, base_lines=73669, new_lines=74999)
+- `Clash/domainset/reject_phishing.txt` (ratio=1.9947, changed=252007, add=126288, del=125719, base_lines=125772, new_lines=126341)
+- `Clash/domainset/speedtest.txt` (ratio=1.9522, changed=6411, add=3213, del=3198, base_lines=3269, new_lines=3284)
 - `Clash/non_ip/ai.txt` (ratio=1.4333, changed=86, add=43, del=43, base_lines=60, new_lines=59)
 - `Clash/non_ip/apple_cn.txt` (ratio=0.8000, changed=16, add=8, del=8, base_lines=20, new_lines=20)
 - `Clash/non_ip/apple_services.txt` (ratio=0.7778, changed=28, add=14, del=14, base_lines=36, new_lines=36)
@@ -58,7 +58,7 @@
 - `Internal/mihomo_nameserver_policy/tencent.txt` (ratio=1.4688, changed=94, add=47, del=47, base_lines=64, new_lines=63)
 - `Internal/mihomo_nameserver_policy/xiaomi.txt` (ratio=1.0625, changed=34, add=17, del=17, base_lines=32, new_lines=31)
 - `Internal/my-reject-adguardhome.txt` (ratio=1.3462, changed=70, add=35, del=35, base_lines=52, new_lines=52)
-- `Internal/reject-adguardhome.txt` (ratio=1.9938, changed=236345, add=118307, del=118038, base_lines=118270, new_lines=118539)
+- `Internal/reject-adguardhome.txt` (ratio=1.9930, changed=236512, add=118458, del=118054, base_lines=118270, new_lines=118674)
 - `LegacyClashPremium/non_ip/ai.txt` (ratio=1.4333, changed=86, add=43, del=43, base_lines=60, new_lines=59)
 - `LegacyClashPremium/non_ip/apple_cn.txt` (ratio=0.8000, changed=16, add=8, del=8, base_lines=20, new_lines=20)
 - `LegacyClashPremium/non_ip/apple_services.txt` (ratio=0.7778, changed=28, add=14, del=14, base_lines=36, new_lines=36)
@@ -88,10 +88,10 @@
 - `List/domainset/download.conf` (ratio=1.9428, changed=3835, add=1919, del=1916, base_lines=1971, new_lines=1974)
 - `List/domainset/game-download.conf` (ratio=1.3750, changed=88, add=44, del=44, base_lines=64, new_lines=64)
 - `List/domainset/icloud_private_relay.conf` (ratio=0.5882, changed=10, add=5, del=5, base_lines=17, new_lines=17)
-- `List/domainset/reject.conf` (ratio=1.9964, changed=229929, add=115099, del=114830, base_lines=114900, new_lines=115169)
-- `List/domainset/reject_extra.conf` (ratio=1.9799, changed=148424, add=74861, del=73563, base_lines=73669, new_lines=74967)
-- `List/domainset/reject_phishing.conf` (ratio=1.9954, changed=251891, add=126179, del=125712, base_lines=125772, new_lines=126239)
-- `List/domainset/speedtest.conf` (ratio=1.9528, changed=6409, add=3211, del=3198, base_lines=3269, new_lines=3282)
+- `List/domainset/reject.conf` (ratio=1.9954, changed=230074, add=115239, del=114835, base_lines=114900, new_lines=115304)
+- `List/domainset/reject_extra.conf` (ratio=1.9795, changed=148460, add=74895, del=73565, base_lines=73669, new_lines=74999)
+- `List/domainset/reject_phishing.conf` (ratio=1.9947, changed=252007, add=126288, del=125719, base_lines=125772, new_lines=126341)
+- `List/domainset/speedtest.conf` (ratio=1.9522, changed=6411, add=3213, del=3198, base_lines=3269, new_lines=3284)
 - `List/non_ip/ai.conf` (ratio=1.4000, changed=84, add=42, del=42, base_lines=60, new_lines=60)
 - `List/non_ip/apple_cn.conf` (ratio=0.8000, changed=16, add=8, del=8, base_lines=20, new_lines=20)
 - `List/non_ip/apple_services.conf` (ratio=0.7778, changed=28, add=14, del=14, base_lines=36, new_lines=36)
@@ -154,10 +154,10 @@
 - `sing-box/domainset/download.json` (ratio=1.9114, changed=3775, add=1889, del=1886, base_lines=1972, new_lines=1975)
 - `sing-box/domainset/game-download.json` (ratio=1.3125, changed=84, add=42, del=42, base_lines=64, new_lines=64)
 - `sing-box/domainset/icloud_private_relay.json` (ratio=0.5882, changed=10, add=5, del=5, base_lines=17, new_lines=16)
-- `sing-box/domainset/reject.json` (ratio=1.9922, changed=229855, add=115062, del=114793, base_lines=115108, new_lines=115377)
-- `sing-box/domainset/reject_extra.json` (ratio=1.9752, changed=148414, add=74856, del=73558, base_lines=73841, new_lines=75139)
-- `sing-box/domainset/reject_phishing.json` (ratio=1.9924, changed=251889, add=126178, del=125711, base_lines=125961, new_lines=126428)
-- `sing-box/domainset/speedtest.json` (ratio=1.9436, changed=6381, add=3197, del=3184, base_lines=3270, new_lines=3283)
+- `sing-box/domainset/reject.json` (ratio=1.9908, changed=229966, add=115185, del=114781, base_lines=115108, new_lines=115512)
+- `sing-box/domainset/reject_extra.json` (ratio=1.9749, changed=148452, add=74891, del=73561, base_lines=73841, new_lines=75171)
+- `sing-box/domainset/reject_phishing.json` (ratio=1.9915, changed=251987, add=126278, del=125709, base_lines=125961, new_lines=126530)
+- `sing-box/domainset/speedtest.json` (ratio=1.9431, changed=6383, add=3199, del=3184, base_lines=3270, new_lines=3285)
 - `sing-box/non_ip/ai.json` (ratio=1.3333, changed=80, add=40, del=40, base_lines=60, new_lines=59)
 - `sing-box/non_ip/apple_cn.json` (ratio=0.6364, changed=14, add=7, del=7, base_lines=22, new_lines=21)
 - `sing-box/non_ip/apple_services.json` (ratio=0.9630, changed=26, add=13, del=13, base_lines=27, new_lines=27)

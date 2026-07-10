@@ -3,13 +3,13 @@
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `38cc968df225a3b5cd05076ba7f94dcbe3161335`
-- Upstream head: `c85e9af68866eda22121d1d971727f34f19d57d4`
-- Time (UTC): 2026-07-10 04:17:00Z
+- Updated from: `c7c5c4efeda27f06759e62f71f1c6545aa161b62`
+- Upstream head: `b0694e3ae8e37a6b737718f51b07c081796be9a9`
+- Time (UTC): 2026-07-10 09:54:23Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
-- Updated files: 0
+- Updated files: 8
 - Added files: 0
 - Upstream deleted but kept: 113
 - Skipped files (ratio>0.5 AND changed>=10): 168
@@ -20,9 +20,9 @@
 - `Clash/domainset/download.txt` (ratio=1.9428, changed=3835, add=1919, del=1916, base_lines=1971, new_lines=1974)
 - `Clash/domainset/game-download.txt` (ratio=1.3750, changed=88, add=44, del=44, base_lines=64, new_lines=64)
 - `Clash/domainset/icloud_private_relay.txt` (ratio=0.5882, changed=10, add=5, del=5, base_lines=17, new_lines=17)
-- `Clash/domainset/reject.txt` (ratio=1.9943, changed=230178, add=115347, del=114831, base_lines=114900, new_lines=115416)
-- `Clash/domainset/reject_extra.txt` (ratio=1.9766, changed=148681, add=75116, del=73565, base_lines=73669, new_lines=75220)
-- `Clash/domainset/reject_phishing.txt` (ratio=1.9962, changed=251751, add=126048, del=125703, base_lines=125772, new_lines=126117)
+- `Clash/domainset/reject.txt` (ratio=1.9945, changed=230143, add=115317, del=114826, base_lines=114900, new_lines=115391)
+- `Clash/domainset/reject_extra.txt` (ratio=1.9741, changed=148874, add=75309, del=73565, base_lines=73669, new_lines=75413)
+- `Clash/domainset/reject_phishing.txt` (ratio=1.9985, changed=251593, add=125857, del=125736, base_lines=125772, new_lines=125893)
 - `Clash/domainset/speedtest.txt` (ratio=1.9519, changed=6412, add=3214, del=3198, base_lines=3269, new_lines=3285)
 - `Clash/non_ip/ai.txt` (ratio=1.4333, changed=86, add=43, del=43, base_lines=60, new_lines=59)
 - `Clash/non_ip/apple_cn.txt` (ratio=0.8000, changed=16, add=8, del=8, base_lines=20, new_lines=20)
@@ -32,7 +32,7 @@
 - `Clash/non_ip/global.txt` (ratio=1.9483, changed=2486, add=1243, del=1243, base_lines=1276, new_lines=1276)
 - `Clash/non_ip/lan.txt` (ratio=1.4333, changed=86, add=43, del=43, base_lines=60, new_lines=60)
 - `Clash/non_ip/microsoft.txt` (ratio=1.6559, changed=154, add=77, del=77, base_lines=93, new_lines=93)
-- `Clash/non_ip/microsoft_cdn.txt` (ratio=1.4493, changed=100, add=50, del=50, base_lines=69, new_lines=69)
+- `Clash/non_ip/microsoft_cdn.txt` (ratio=1.4638, changed=101, add=50, del=51, base_lines=69, new_lines=68)
 - `Clash/non_ip/my_git.txt` (ratio=0.6250, changed=10, add=5, del=5, base_lines=16, new_lines=16)
 - `Clash/non_ip/my_plus.txt` (ratio=0.8800, changed=22, add=11, del=11, base_lines=25, new_lines=24)
 - `Clash/non_ip/my_proxy.txt` (ratio=1.0000, changed=26, add=13, del=13, base_lines=26, new_lines=25)
@@ -58,7 +58,7 @@
 - `Internal/mihomo_nameserver_policy/tencent.txt` (ratio=1.4688, changed=94, add=47, del=47, base_lines=64, new_lines=63)
 - `Internal/mihomo_nameserver_policy/xiaomi.txt` (ratio=1.0625, changed=34, add=17, del=17, base_lines=32, new_lines=31)
 - `Internal/my-reject-adguardhome.txt` (ratio=1.3462, changed=70, add=35, del=35, base_lines=52, new_lines=52)
-- `Internal/reject-adguardhome.txt` (ratio=1.9919, changed=236605, add=118560, del=118045, base_lines=118270, new_lines=118785)
+- `Internal/reject-adguardhome.txt` (ratio=1.9921, changed=236578, add=118534, del=118044, base_lines=118270, new_lines=118760)
 - `LegacyClashPremium/non_ip/ai.txt` (ratio=1.4333, changed=86, add=43, del=43, base_lines=60, new_lines=59)
 - `LegacyClashPremium/non_ip/apple_cn.txt` (ratio=0.8000, changed=16, add=8, del=8, base_lines=20, new_lines=20)
 - `LegacyClashPremium/non_ip/apple_services.txt` (ratio=0.7778, changed=28, add=14, del=14, base_lines=36, new_lines=36)
@@ -67,7 +67,7 @@
 - `LegacyClashPremium/non_ip/global.txt` (ratio=1.9483, changed=2486, add=1243, del=1243, base_lines=1276, new_lines=1276)
 - `LegacyClashPremium/non_ip/lan.txt` (ratio=1.4333, changed=86, add=43, del=43, base_lines=60, new_lines=60)
 - `LegacyClashPremium/non_ip/microsoft.txt` (ratio=1.6559, changed=154, add=77, del=77, base_lines=93, new_lines=93)
-- `LegacyClashPremium/non_ip/microsoft_cdn.txt` (ratio=1.4493, changed=100, add=50, del=50, base_lines=69, new_lines=69)
+- `LegacyClashPremium/non_ip/microsoft_cdn.txt` (ratio=1.4638, changed=101, add=50, del=51, base_lines=69, new_lines=68)
 - `LegacyClashPremium/non_ip/my_git.txt` (ratio=0.6250, changed=10, add=5, del=5, base_lines=16, new_lines=16)
 - `LegacyClashPremium/non_ip/my_plus.txt` (ratio=0.8800, changed=22, add=11, del=11, base_lines=25, new_lines=24)
 - `LegacyClashPremium/non_ip/my_proxy.txt` (ratio=1.0000, changed=26, add=13, del=13, base_lines=26, new_lines=25)
@@ -88,9 +88,9 @@
 - `List/domainset/download.conf` (ratio=1.9428, changed=3835, add=1919, del=1916, base_lines=1971, new_lines=1974)
 - `List/domainset/game-download.conf` (ratio=1.3750, changed=88, add=44, del=44, base_lines=64, new_lines=64)
 - `List/domainset/icloud_private_relay.conf` (ratio=0.5882, changed=10, add=5, del=5, base_lines=17, new_lines=17)
-- `List/domainset/reject.conf` (ratio=1.9943, changed=230178, add=115347, del=114831, base_lines=114900, new_lines=115416)
-- `List/domainset/reject_extra.conf` (ratio=1.9766, changed=148681, add=75116, del=73565, base_lines=73669, new_lines=75220)
-- `List/domainset/reject_phishing.conf` (ratio=1.9962, changed=251751, add=126048, del=125703, base_lines=125772, new_lines=126117)
+- `List/domainset/reject.conf` (ratio=1.9945, changed=230143, add=115317, del=114826, base_lines=114900, new_lines=115391)
+- `List/domainset/reject_extra.conf` (ratio=1.9741, changed=148874, add=75309, del=73565, base_lines=73669, new_lines=75413)
+- `List/domainset/reject_phishing.conf` (ratio=1.9985, changed=251593, add=125857, del=125736, base_lines=125772, new_lines=125893)
 - `List/domainset/speedtest.conf` (ratio=1.9519, changed=6412, add=3214, del=3198, base_lines=3269, new_lines=3285)
 - `List/non_ip/ai.conf` (ratio=1.4000, changed=84, add=42, del=42, base_lines=60, new_lines=60)
 - `List/non_ip/apple_cn.conf` (ratio=0.8000, changed=16, add=8, del=8, base_lines=20, new_lines=20)
@@ -100,7 +100,7 @@
 - `List/non_ip/global.conf` (ratio=1.9468, changed=2486, add=1243, del=1243, base_lines=1277, new_lines=1277)
 - `List/non_ip/lan.conf` (ratio=1.4333, changed=86, add=43, del=43, base_lines=60, new_lines=60)
 - `List/non_ip/microsoft.conf` (ratio=1.6559, changed=154, add=77, del=77, base_lines=93, new_lines=93)
-- `List/non_ip/microsoft_cdn.conf` (ratio=1.4085, changed=100, add=50, del=50, base_lines=71, new_lines=71)
+- `List/non_ip/microsoft_cdn.conf` (ratio=1.4225, changed=101, add=50, del=51, base_lines=71, new_lines=70)
 - `List/non_ip/my_git.conf` (ratio=0.6250, changed=10, add=5, del=5, base_lines=16, new_lines=16)
 - `List/non_ip/my_plus.conf` (ratio=0.8800, changed=22, add=11, del=11, base_lines=25, new_lines=24)
 - `List/non_ip/my_proxy.conf` (ratio=1.0000, changed=26, add=13, del=13, base_lines=26, new_lines=25)
@@ -133,7 +133,7 @@
 - `Surfboard/non_ip/global.conf` (ratio=1.9483, changed=2486, add=1243, del=1243, base_lines=1276, new_lines=1276)
 - `Surfboard/non_ip/lan.conf` (ratio=1.4333, changed=86, add=43, del=43, base_lines=60, new_lines=60)
 - `Surfboard/non_ip/microsoft.conf` (ratio=1.6559, changed=154, add=77, del=77, base_lines=93, new_lines=93)
-- `Surfboard/non_ip/microsoft_cdn.conf` (ratio=1.4493, changed=100, add=50, del=50, base_lines=69, new_lines=69)
+- `Surfboard/non_ip/microsoft_cdn.conf` (ratio=1.4638, changed=101, add=50, del=51, base_lines=69, new_lines=68)
 - `Surfboard/non_ip/my_git.conf` (ratio=0.6250, changed=10, add=5, del=5, base_lines=16, new_lines=16)
 - `Surfboard/non_ip/my_plus.conf` (ratio=0.8800, changed=22, add=11, del=11, base_lines=25, new_lines=24)
 - `Surfboard/non_ip/my_proxy.conf` (ratio=1.0000, changed=26, add=13, del=13, base_lines=26, new_lines=25)
@@ -154,9 +154,9 @@
 - `sing-box/domainset/download.json` (ratio=1.9114, changed=3775, add=1889, del=1886, base_lines=1972, new_lines=1975)
 - `sing-box/domainset/game-download.json` (ratio=1.3125, changed=84, add=42, del=42, base_lines=64, new_lines=64)
 - `sing-box/domainset/icloud_private_relay.json` (ratio=0.5882, changed=10, add=5, del=5, base_lines=17, new_lines=16)
-- `sing-box/domainset/reject.json` (ratio=1.9898, changed=230070, add=115293, del=114777, base_lines=115108, new_lines=115624)
-- `sing-box/domainset/reject_extra.json` (ratio=1.9719, changed=148663, add=75107, del=73556, base_lines=73841, new_lines=75392)
-- `sing-box/domainset/reject_phishing.json` (ratio=1.9933, changed=251765, add=126055, del=125710, base_lines=125961, new_lines=126306)
+- `sing-box/domainset/reject.json` (ratio=1.9902, changed=230065, add=115278, del=114787, base_lines=115108, new_lines=115599)
+- `sing-box/domainset/reject_extra.json` (ratio=1.9695, changed=148868, add=75306, del=73562, base_lines=73841, new_lines=75585)
+- `sing-box/domainset/reject_phishing.json` (ratio=1.9954, changed=251589, add=125855, del=125734, base_lines=125961, new_lines=126082)
 - `sing-box/domainset/speedtest.json` (ratio=1.9428, changed=6384, add=3200, del=3184, base_lines=3270, new_lines=3286)
 - `sing-box/non_ip/ai.json` (ratio=1.3333, changed=80, add=40, del=40, base_lines=60, new_lines=59)
 - `sing-box/non_ip/apple_cn.json` (ratio=0.6364, changed=14, add=7, del=7, base_lines=22, new_lines=21)
@@ -166,7 +166,7 @@
 - `sing-box/non_ip/global.json` (ratio=1.9406, changed=2482, add=1241, del=1241, base_lines=1279, new_lines=1279)
 - `sing-box/non_ip/lan.json` (ratio=1.3443, changed=82, add=41, del=41, base_lines=61, new_lines=61)
 - `sing-box/non_ip/microsoft.json` (ratio=1.6923, changed=154, add=77, del=77, base_lines=91, new_lines=90)
-- `sing-box/non_ip/microsoft_cdn.json` (ratio=1.4328, changed=96, add=48, del=48, base_lines=67, new_lines=67)
+- `sing-box/non_ip/microsoft_cdn.json` (ratio=1.4179, changed=95, add=47, del=48, base_lines=67, new_lines=66)
 - `sing-box/non_ip/my_git.json` (ratio=0.5263, changed=10, add=5, del=5, base_lines=19, new_lines=19)
 - `sing-box/non_ip/my_plus.json` (ratio=0.7857, changed=22, add=11, del=11, base_lines=28, new_lines=27)
 - `sing-box/non_ip/my_proxy.json` (ratio=0.6897, changed=20, add=10, del=10, base_lines=29, new_lines=28)

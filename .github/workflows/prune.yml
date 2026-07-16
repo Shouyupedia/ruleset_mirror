@@ -7,6 +7,10 @@ on:
         description: "list or delete"
         required: true
         default: "list"
+        type: choice
+        options:
+          - list
+          - delete
       path_prefix:
         description: "Only prune under this prefix (e.g., List/). Empty = whole repo"
         required: false
@@ -15,9 +19,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: repository-write-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   prune:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     env:
       UPSTREAM: https://github.com/SukkaLab/ruleset.skk.moe.git
       UPSTREAM_BRANCH: master
@@ -25,13 +34,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Fetch upstream
         run: |
           set -euo pipefail
           git remote add upstream "${UPSTREAM}" 2>/dev/null || true
-          git fetch upstream "${UPSTREAM_BRANCH}" --prune
+          git fetch --depth=1 upstream "${UPSTREAM_BRANCH}" --prune
 
       - name: Find orphan files (exist in mirror but not in upstream)
         id: find
@@ -44,47 +53,59 @@ jobs:
 
           prefix="${{ github.event.inputs.path_prefix }}"
           mode="${{ github.event.inputs.mode }}"
+          case "$mode" in
+            list|delete) ;;
+            *) echo "Unsupported mode: $mode" >&2; exit 2 ;;
+          esac
 
-          # 列出当前仓库文件（排除元信息）
-          find . -type f \
-            ! -path "./.git/*" \
-            ! -path "./.github/*" \
-            ! -name "README.md" \
-            ! -name "LICENSE" \
-            | sed 's|^\./||' \
-            | ( [[ -n "$prefix" ]] && grep -E "^${prefix}" || cat ) \
-            > local_files.txt
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
+          local_files="$tmp_dir/local-files.txt"
+          upstream_files="$tmp_dir/upstream-files.txt"
+          orphan_file="$tmp_dir/orphan.txt"
 
-          # 列出上游 NEW 版本文件
-          git ls-tree -r --name-only "$NEW" > upstream_files.txt
-          ( [[ -n "$prefix" ]] && grep -E "^${prefix}" upstream_files.txt || true ) > upstream_files2.txt
-          mv upstream_files2.txt upstream_files.txt
+          # A workflow checkout is clean, so tracked files are the complete and
+          # fastest source of local candidates. Keep mirror metadata out.
+          git ls-files | while IFS= read -r path; do
+            case "$path" in
+              .github/*|.gitignore|README.md|LICENSE|deploy-check*.txt) continue ;;
+            esac
+            if [[ -z "$prefix" || "$path" == "$prefix"* ]]; then
+              printf '%s\n' "$path"
+            fi
+          done > "$local_files"
+
+          git ls-tree -r --name-only "$NEW" | while IFS= read -r path; do
+            if [[ -z "$prefix" || "$path" == "$prefix"* ]]; then
+              printf '%s\n' "$path"
+            fi
+          done > "$upstream_files"
 
           # local - upstream = orphan
-          comm -23 <(sort local_files.txt) <(sort upstream_files.txt) > orphan.txt || true
+          comm -23 <(sort "$local_files") <(sort "$upstream_files") > "$orphan_file" || true
 
-          echo "Orphan count: $(wc -l < orphan.txt)"
+          echo "Orphan count: $(wc -l < "$orphan_file")"
           {
             echo "## Orphan files (local exists, upstream missing)"
             echo ""
             echo "- Base: \`$BASE\`"
             echo "- Upstream: \`$NEW\`"
             echo "- Prefix: \`${prefix}\`"
-            echo "- Count: $(wc -l < orphan.txt)"
+            echo "- Count: $(wc -l < "$orphan_file")"
             echo ""
             echo "### List"
             echo ""
-            if [[ -s orphan.txt ]]; then
-              sed 's/^/- `/' orphan.txt | sed 's/$/`/'
+            if [[ -s "$orphan_file" ]]; then
+              sed 's/^/- `/' "$orphan_file" | sed 's/$/`/'
             else
               echo "(none)"
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
-          if [[ "$mode" == "delete" && -s orphan.txt ]]; then
-            while IFS= read -r f; do
-              rm -f "$f"
-            done < orphan.txt
+          if [[ "$mode" == "delete" && -s "$orphan_file" ]]; then
+            while IFS= read -r file; do
+              rm -f "$file"
+            done < "$orphan_file"
           fi
 
       - name: Commit deletions

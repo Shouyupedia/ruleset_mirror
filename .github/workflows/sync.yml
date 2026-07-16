@@ -13,9 +13,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: repository-write-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     env:
       UPSTREAM: https://github.com/SukkaLab/ruleset.skk.moe.git
       UPSTREAM_BRANCH: master
@@ -27,13 +32,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Add upstream & fetch
         run: |
           set -euo pipefail
           git remote add upstream "${UPSTREAM}" 2>/dev/null || true
-          git fetch upstream "${UPSTREAM_BRANCH}" --prune
+          git fetch --depth=1 upstream "${UPSTREAM_BRANCH}" --prune
 
       - name: Selective sync (per-file guard) + README + Job Summary
         run: |
@@ -41,6 +46,7 @@ jobs:
 
           BASE="$(git rev-parse HEAD)"
           NEW="$(git rev-parse upstream/${UPSTREAM_BRANCH})"
+          previous_upstream="$(sed -n 's/^- Upstream head: `\([^`]*\)`.*/\1/p' README.md 2>/dev/null | head -n 1 || true)"
 
           echo "Base: $BASE"
           echo "New : $NEW"
@@ -48,35 +54,31 @@ jobs:
           echo "threshold=${THRESHOLD}"
           echo "min_changed_lines=${MIN_CHANGED_LINES}"
 
-          # Exclude repo meta only (mirror all rules files)
-          EXCLUDE_PATHS=(
-            ".github"
-            ".gitignore"
-            "README.md"
-            "README.*"
-            "LICENSE"
-          )
-
           is_excluded() {
-            local p="$1"
-            for ex in "${EXCLUDE_PATHS[@]}"; do
-              [[ "$ex" == "README.*" ]] && [[ "$p" == README.* ]] && return 0
-              [[ "$p" == "$ex" ]] && return 0
-              [[ "$p" == "$ex/"* ]] && return 0
-            done
-            return 1
+            case "$1" in
+              .github|.github/*|.gitignore|README.md|README.*|LICENSE|deploy-check*.txt)
+                return 0
+                ;;
+              *)
+                return 1
+                ;;
+            esac
           }
 
-          tmp="$(mktemp)"
-          git diff --name-status "$BASE" "$NEW" > "$tmp" || true
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
+          diff_file="$tmp_dir/diff.txt"
+          skipped_file="$tmp_dir/skipped.md"
+          report_file="$tmp_dir/report.md"
+          git diff --name-status "$BASE" "$NEW" > "$diff_file" || true
 
           skipped_count=0
           updated_count=0
           added_count=0
           keep_deleted_count=0
 
-          # store skipped lines to a file (avoid echo -e portability issues)
-          : > skipped.md
+          # Store reports outside the checkout so they never affect git status.
+          : > "$skipped_file"
 
           while IFS=$'\t' read -r st a b; do
             [[ -z "${st:-}" ]] && continue
@@ -137,7 +139,7 @@ jobs:
                    && [[ "$changed" -ge "$MIN_CHANGED_LINES" ]]; then
                   skipped_count=$((skipped_count+1))
                   printf -- "- \`%s\` (ratio=%s, changed=%s, add=%s, del=%s, base_lines=%s, new_lines=%s)\n" \
-                    "$path" "$ratio" "$changed" "$add" "$del" "$old_lines" "$new_lines" >> skipped.md
+                    "$path" "$ratio" "$changed" "$add" "$del" "$old_lines" "$new_lines" >> "$skipped_file"
                   echo "::warning file=$path::Skipped (ratio=$ratio > $THRESHOLD AND changed=$changed >= $MIN_CHANGED_LINES)"
                 else
                   mkdir -p "$(dirname "$path")"
@@ -153,15 +155,14 @@ jobs:
               *)
                 ;;
             esac
-          done < "$tmp"
-          rm -f "$tmp"
+          done < "$diff_file"
 
           now="$(date -u +'%Y-%m-%d %H:%M:%SZ')"
-          if [[ ! -s skipped.md ]]; then
-            echo "(none)" > skipped.md
+          if [[ ! -s "$skipped_file" ]]; then
+            echo "(none)" > "$skipped_file"
           fi
 
-          # Build report.md (no heredoc, no env passing)
+          # Build the guard report.
           {
             echo "## Auto Update Guard Report"
             echo ""
@@ -177,8 +178,8 @@ jobs:
             echo "- Skipped files (ratio>${THRESHOLD} AND changed>=${MIN_CHANGED_LINES}): ${skipped_count}"
             echo ""
             echo "### Skipped file list"
-            cat skipped.md
-          } > report.md
+            cat "$skipped_file"
+          } > "$report_file"
 
           # Enhancement 1: Job Summary (safe with set -u)
           SUMMARY_FILE="${GITHUB_STEP_SUMMARY:-}"
@@ -202,19 +203,23 @@ jobs:
               echo ""
               echo "### Skipped file list"
               echo ""
-              cat skipped.md
+              cat "$skipped_file"
             } >> "$SUMMARY_FILE"
           else
             echo "::notice::GITHUB_STEP_SUMMARY not set; printing summary to log."
-            cat report.md
+            cat "$report_file"
           fi
 
-          # Update README guard block (from report.md)
+          # Update the README guard block and remove upstream deployment probes
+          # from the generated site index.
           [[ -f README.md ]] || echo "# ruleset mirror" > README.md
 
-          python3 - <<'PY'
-          import re, pathlib
-          report = pathlib.Path("report.md").read_text(encoding="utf-8", errors="ignore")
+          python3 - "$report_file" <<'PY'
+          import pathlib
+          import re
+          import sys
+
+          report = pathlib.Path(sys.argv[1]).read_text(encoding="utf-8", errors="ignore")
           p = pathlib.Path("README.md")
           txt = p.read_text(encoding="utf-8", errors="ignore")
           begin = "<!-- BEGIN_GUARD_REPORT -->"
@@ -225,7 +230,26 @@ jobs:
           else:
               txt = txt.rstrip() + "\n\n" + block + "\n"
           p.write_text(txt, encoding="utf-8")
+
+          # Deployment probes are upstream metadata, not mirrored rules.
+          index = pathlib.Path("index.html")
+          if index.is_file():
+              lines = index.read_text(encoding="utf-8", errors="ignore").splitlines(keepends=True)
+              lines = [line for line in lines if 'href="/deploy-check' not in line]
+              index.write_text("".join(lines), encoding="utf-8")
           PY
+
+          [[ ! -f index.html ]] || git add index.html
+
+          # A repeated schedule with the same upstream revision used to create
+          # a commit solely because the report timestamp changed. Avoid that
+          # deployment while still reporting every newly seen upstream commit.
+          if [[ "$FORCE_UPDATE" != "true" && "$previous_upstream" == "$NEW" ]] \
+             && git diff --cached --quiet; then
+            git restore --worktree README.md
+            echo "No upstream or mirrored content changes."
+            exit 0
+          fi
 
           git add README.md
 

@@ -68,7 +68,7 @@ jobs:
           # fastest source of local candidates. Keep mirror metadata out.
           git ls-files | while IFS= read -r path; do
             case "$path" in
-              .github/*|.gitignore|README.md|LICENSE|deploy-check*.txt) continue ;;
+              .github/*|.gitattributes|.gitignore|README.md|LICENSE|deploy-check*.txt|*.mrs|*.srs) continue ;;
             esac
             if [[ -z "$prefix" || "$path" == "$prefix"* ]]; then
               printf '%s\n' "$path"

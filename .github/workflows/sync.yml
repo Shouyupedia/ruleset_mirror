@@ -56,7 +56,7 @@ jobs:
 
           is_excluded() {
             case "$1" in
-              .github|.github/*|.gitignore|README.md|README.*|LICENSE|deploy-check*.txt)
+              .github|.github/*|.gitattributes|.gitignore|README.md|README.*|LICENSE|deploy-check*.txt|*.mrs|*.srs)
                 return 0
                 ;;
               *)

@@ -1,0 +1,89 @@
+name: compile-binary-rulesets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "Clash/**/*.txt"
+      - "sing-box/**/*.json"
+      - ".github/scripts/compile_rulesets.py"
+      - ".github/workflows/compile_rulesets.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repository-write-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      MIHOMO_VERSION: v1.19.28
+      MIHOMO_SHA256: d5967e079d9f793515a5a8193aabda455f7e012427eccd567dbc4f2f15498204
+      SING_BOX_VERSION: 1.13.12
+      SING_BOX_SHA256: 1540533adb3df24f5ad5f14b5c7ca3dbc2401b10a1c1eb278fcadcada47ec6c4
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Download verified compilers
+        run: |
+          set -euo pipefail
+          bin_dir="${RUNNER_TEMP}/ruleset-bin"
+          archive_dir="${RUNNER_TEMP}/ruleset-archives"
+          sing_box_dir="${RUNNER_TEMP}/sing-box"
+          mkdir -p "$bin_dir" "$archive_dir" "$sing_box_dir"
+
+          mihomo_archive="${archive_dir}/mihomo.gz"
+          sing_box_archive="${archive_dir}/sing-box.tar.gz"
+
+          curl --fail --location --silent --show-error \
+            --retry 5 --retry-all-errors \
+            --output "$mihomo_archive" \
+            "https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
+          printf '%s  %s\n' "$MIHOMO_SHA256" "$mihomo_archive" | sha256sum --check -
+
+          curl --fail --location --silent --show-error \
+            --retry 5 --retry-all-errors \
+            --output "$sing_box_archive" \
+            "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
+          printf '%s  %s\n' "$SING_BOX_SHA256" "$sing_box_archive" | sha256sum --check -
+
+          gzip --decompress --stdout "$mihomo_archive" > "${bin_dir}/mihomo"
+          tar --extract --gzip --file "$sing_box_archive" \
+            --directory "$sing_box_dir" --strip-components=1
+          install --mode 0755 "${sing_box_dir}/sing-box" "${bin_dir}/sing-box"
+          chmod 0755 "${bin_dir}/mihomo"
+
+          echo "$bin_dir" >> "$GITHUB_PATH"
+          "${bin_dir}/mihomo" -v
+          "${bin_dir}/sing-box" version
+
+      - name: Compile MRS and SRS files
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/compile_rulesets.py \
+            --root "$GITHUB_WORKSPACE" \
+            --mihomo "$(command -v mihomo)" \
+            --sing-box "$(command -v sing-box)"
+
+      - name: Commit compiled rulesets
+        run: |
+          set -euo pipefail
+          git add --all -- Clash sing-box
+          if git diff --cached --quiet; then
+            echo "Compiled rulesets are already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "build: compile MRS and SRS rulesets"
+          git push origin "HEAD:${{ github.ref_name }}"

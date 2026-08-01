@@ -15,18 +15,18 @@ and are not converted into incomplete binaries.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `d49cf8cd366225d34e329261055a7f7102fdc95f`
-- Upstream head: `fb27eea76a692a8bf863de6a1671afdcfaec25f3`
-- Time (UTC): 2026-08-01 08:34:09Z
+- Updated from: `c61664399a52a3c9c26e5231256bbe864dd4c68b`
+- Upstream head: `b7412294ec11c5009eeb2699b025e342e04a1689`
+- Time (UTC): 2026-08-01 13:56:06Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
-- Updated files: 66
+- Updated files: 14
 - Added files: 0
 - Upstream deleted but kept: 0
-- Skipped files (ratio>0.5 AND changed>=10): 0
+- Skipped files (ratio>0.5 AND changed>=10): 1
 
 ### Skipped file list
-(none)
+- `Internal/sukka_ubo_url_redirect_filters.txt` (ratio=1.9255, changed=362, add=181, del=181, base_lines=187, new_lines=188)
 
 <!-- END_GUARD_REPORT -->

@@ -15,13 +15,13 @@ and are not converted into incomplete binaries.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `e83fe0b0ba5bee7b2b12252a7558b455bd9e2180`
-- Upstream head: `d346805f555939694dde83bbd78e4b38b53aab39`
-- Time (UTC): 2026-08-05 09:06:15Z
+- Updated from: `6dfaa5f90b8911fc4c1568239c393aa88c3893ba`
+- Upstream head: `df9b8282e60d9599314040ea1d0f3b8f549c777c`
+- Time (UTC): 2026-08-05 14:33:59Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
-- Updated files: 17
+- Updated files: 316
 - Added files: 0
 - Upstream deleted but kept: 0
 - Skipped files (ratio>0.5 AND changed>=10): 1

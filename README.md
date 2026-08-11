@@ -15,9 +15,9 @@ and are not converted into incomplete binaries.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `8af50b7f627b5a3cd454e9bbf0b5b4aae8a6a186`
-- Upstream head: `b27348dde6c725eac6ffa784c3cd898a6b1fef8b`
-- Time (UTC): 2026-08-11 02:28:04Z
+- Updated from: `bcffe59d6be66c4be48b5a24b724cf5e02efb4d3`
+- Upstream head: `f1c1c294a05d3a81901e7312bd4160382cc39970`
+- Time (UTC): 2026-08-11 07:38:17Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false

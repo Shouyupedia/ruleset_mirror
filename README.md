@@ -15,9 +15,9 @@ and are not converted into incomplete binaries.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `def20e22ece160a752feba9f7cae988ef0725ba7`
-- Upstream head: `736e3cabe5eb03b91502dc25edcd1ded711e889e`
-- Time (UTC): 2026-08-16 18:47:29Z
+- Updated from: `64ec2e3aff7401af69f67ebe05f46ae2b4783c55`
+- Upstream head: `f76bc7b4f2610aaec432c60a795c06880d4725ca`
+- Time (UTC): 2026-08-17 07:16:46Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
@@ -27,7 +27,7 @@ and are not converted into incomplete binaries.
 - Skipped files (ratio>0.5 AND changed>=10): 2
 
 ### Skipped file list
-- `Internal/mtproto-dc-config.json` (ratio=0.5875, changed=94, add=47, del=47, base_lines=160, new_lines=160)
+- `Internal/mtproto-dc-config.json` (ratio=0.6000, changed=96, add=48, del=48, base_lines=160, new_lines=160)
 - `Internal/sukka_ubo_url_redirect_filters.txt` (ratio=1.9255, changed=362, add=181, del=181, base_lines=187, new_lines=188)
 
 <!-- END_GUARD_REPORT -->

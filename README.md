@@ -12,6 +12,11 @@ Mihomo MRS does not support classical rule sets. `Clash/non_ip` and IP files
 containing unsupported rules such as `IP-ASN` remain available in source form
 and are not converted into incomplete binaries.
 
+Human pushes to matching source paths trigger the compiler directly. Scheduled
+upstream synchronization calls the same reusable compiler explicitly after its
+source commit is pushed, because pushes made with `GITHUB_TOKEN` do not create
+another push-triggered workflow run.
+
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 

@@ -21,6 +21,8 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    outputs:
+      rules_changed: ${{ steps.selective_sync.outputs.rules_changed }}
     env:
       UPSTREAM: https://github.com/SukkaLab/ruleset.skk.moe.git
       UPSTREAM_BRANCH: master
@@ -41,6 +43,7 @@ jobs:
           git fetch --depth=1 upstream "${UPSTREAM_BRANCH}" --prune
 
       - name: Selective sync (per-file guard) + README + Job Summary
+        id: selective_sync
         run: |
           set -euo pipefail
 
@@ -253,6 +256,17 @@ jobs:
 
           git add README.md
 
+          rules_changed=false
+          while IFS= read -r changed_path; do
+            case "$changed_path" in
+              Clash/*.txt|sing-box/*.json)
+                rules_changed=true
+                break
+                ;;
+            esac
+          done < <(git diff --cached --name-only)
+          echo "rules_changed=$rules_changed" >> "$GITHUB_OUTPUT"
+
           # If nothing changed, stop
           if [[ -z "$(git status --porcelain)" ]]; then
             echo "No changes to commit."
@@ -267,3 +281,16 @@ jobs:
         run: |
           set -euo pipefail
           git push origin "${{ github.ref_name }}"
+
+  compile-rulesets:
+    name: Compile synchronized MRS and SRS files
+    needs: sync
+    if: needs.sync.outputs.rules_changed == 'true'
+    permissions:
+      contents: write
+    uses: ./.github/workflows/compile_rulesets.yml
+    with:
+      ref: ${{ github.ref_name }}
+      # The caller already owns repository-write-${{ github.ref }}. A unique
+      # nested group avoids waiting on its own workflow-level lock.
+      concurrency_group: sync-compile-${{ github.run_id }}

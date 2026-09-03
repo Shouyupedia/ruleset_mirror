@@ -20,9 +20,9 @@ another push-triggered workflow run.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `01a316190e809403005e4ca4676ec9bbfcd2eefa`
-- Upstream head: `714ea3df63d45fd37b3db5965c9501a82bfe9342`
-- Time (UTC): 2026-09-03 04:35:47Z
+- Updated from: `814e22769abab552e03d16bbb7df74189f791656`
+- Upstream head: `730962ec2f1ea8c07697150dc7caa09029cf43e5`
+- Time (UTC): 2026-09-03 11:17:25Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
@@ -32,8 +32,8 @@ another push-triggered workflow run.
 - Skipped files (ratio>0.5 AND changed>=10): 3
 
 ### Skipped file list
-- `Clash/ip/china_ip_ipv6.txt` (ratio=1.1596, changed=3952, add=3054, del=898, base_lines=1252, new_lines=3408)
-- `List/ip/china_ip_ipv6.conf` (ratio=1.1593, changed=3952, add=3054, del=898, base_lines=1253, new_lines=3409)
-- `sing-box/ip/china_ip_ipv6.json` (ratio=1.1599, changed=3946, add=3051, del=895, base_lines=1246, new_lines=3402)
+- `Clash/ip/china_ip_ipv6.txt` (ratio=1.1595, changed=3954, add=3056, del=898, base_lines=1252, new_lines=3410)
+- `List/ip/china_ip_ipv6.conf` (ratio=1.1592, changed=3954, add=3056, del=898, base_lines=1253, new_lines=3411)
+- `sing-box/ip/china_ip_ipv6.json` (ratio=1.1598, changed=3948, add=3053, del=895, base_lines=1246, new_lines=3404)
 
 <!-- END_GUARD_REPORT -->

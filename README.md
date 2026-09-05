@@ -20,13 +20,13 @@ another push-triggered workflow run.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `a14d685e10531ab4fca4574942754c446f196eb2`
-- Upstream head: `be7af3aac8c504ff1b934896673c0b1522194c9f`
-- Time (UTC): 2026-09-05 10:37:45Z
+- Updated from: `7692399e89f0d8405e0cdc0a388ddf5ae7063bcb`
+- Upstream head: `c4170b1e2a0b1f84d18e99ee233fac776a8da1d1`
+- Time (UTC): 2026-09-05 15:16:16Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
-- Updated files: 15
+- Updated files: 12
 - Added files: 0
 - Upstream deleted but kept: 0
 - Skipped files (ratio>0.5 AND changed>=10): 3

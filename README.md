@@ -20,9 +20,9 @@ another push-triggered workflow run.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `37f9f5118263eed313eb0ed48e37c9ce3ac814ee`
-- Upstream head: `0bc75e5e5efc0629a0605e8b28b26fe7556cb441`
-- Time (UTC): 2026-09-21 12:51:58Z
+- Updated from: `8d37a97e5a26ad42019be5be74a37c9d892dc106`
+- Upstream head: `304aa8e0fed9c7268fafa4ddeff6b4b220467f6f`
+- Time (UTC): 2026-09-21 21:59:42Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false

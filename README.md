@@ -20,25 +20,25 @@ another push-triggered workflow run.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `03ad7cc19840187a601c08ea8ea844b3dcad34b2`
-- Upstream head: `bd8abcae6242668214cf2fb40756ee66083cc6e7`
-- Time (UTC): 2026-10-18 20:46:44Z
+- Updated from: `d597ce6507e027d456ccf90d63ec705774ce6c5f`
+- Upstream head: `18e149a37ab1abd27453e87bcd354e19152e60e9`
+- Time (UTC): 2026-10-19 13:21:12Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
-- Updated files: 15
+- Updated files: 23
 - Added files: 0
 - Upstream deleted but kept: 0
 - Skipped files (ratio>0.5 AND changed>=10): 8
 
 ### Skipped file list
-- `Clash/ip/china_ip_ipv6.txt` (ratio=1.1696, changed=4097, add=3174, del=923, base_lines=1252, new_lines=3503)
+- `Clash/ip/china_ip_ipv6.txt` (ratio=1.1700, changed=4101, add=3177, del=924, base_lines=1252, new_lines=3505)
 - `Clash/non_ip/domestic_cdn.txt` (ratio=0.5294, changed=18, add=15, del=3, base_lines=22, new_lines=34)
 - `LegacyClashPremium/non_ip/domestic_cdn.txt` (ratio=0.5455, changed=18, add=15, del=3, base_lines=21, new_lines=33)
-- `List/ip/china_ip_ipv6.conf` (ratio=1.1692, changed=4097, add=3174, del=923, base_lines=1253, new_lines=3504)
+- `List/ip/china_ip_ipv6.conf` (ratio=1.1697, changed=4101, add=3177, del=924, base_lines=1253, new_lines=3506)
 - `List/non_ip/domestic_cdn.conf` (ratio=0.5294, changed=18, add=15, del=3, base_lines=22, new_lines=34)
 - `Surfboard/non_ip/domestic_cdn.conf` (ratio=0.5455, changed=18, add=15, del=3, base_lines=21, new_lines=33)
-- `sing-box/ip/china_ip_ipv6.json` (ratio=1.1704, changed=4093, add=3172, del=921, base_lines=1246, new_lines=3497)
+- `sing-box/ip/china_ip_ipv6.json` (ratio=1.1709, changed=4097, add=3175, del=922, base_lines=1246, new_lines=3499)
 - `sing-box/non_ip/domestic_cdn.json` (ratio=0.5185, changed=14, add=12, del=2, base_lines=17, new_lines=27)
 
 <!-- END_GUARD_REPORT -->

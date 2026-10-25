@@ -20,24 +20,29 @@ another push-triggered workflow run.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `78b370687f1ef149ee0ea0652bd247f04662e72d`
-- Upstream head: `4862308b2cb3cd11e13b3cbb081863af5bcc2823`
-- Time (UTC): 2026-10-25 16:24:54Z
+- Updated from: `a4d76544edaea346e4e9873d9ca77dee3e296c8b`
+- Upstream head: `d14bca9ab5ce48be0d4518a723db50a2e12c231e`
+- Time (UTC): 2026-10-25 20:52:59Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
-- Updated files: 27
+- Updated files: 15
 - Added files: 0
 - Upstream deleted but kept: 0
-- Skipped files (ratio>0.5 AND changed>=10): 8
+- Skipped files (ratio>0.5 AND changed>=10): 13
 
 ### Skipped file list
+- `Clash/ip/ai.txt` (ratio=0.8036, changed=135, add=131, del=4, base_lines=41, new_lines=168)
 - `Clash/ip/china_ip_ipv6.txt` (ratio=1.1700, changed=4101, add=3177, del=924, base_lines=1252, new_lines=3505)
 - `Clash/non_ip/domestic_cdn.txt` (ratio=0.5294, changed=18, add=15, del=3, base_lines=22, new_lines=34)
+- `LegacyClashPremium/ip/ai.txt` (ratio=0.8084, changed=135, add=131, del=4, base_lines=40, new_lines=167)
 - `LegacyClashPremium/non_ip/domestic_cdn.txt` (ratio=0.5455, changed=18, add=15, del=3, base_lines=21, new_lines=33)
+- `List/ip/ai.conf` (ratio=0.8036, changed=135, add=131, del=4, base_lines=41, new_lines=168)
 - `List/ip/china_ip_ipv6.conf` (ratio=1.1697, changed=4101, add=3177, del=924, base_lines=1253, new_lines=3506)
 - `List/non_ip/domestic_cdn.conf` (ratio=0.5294, changed=18, add=15, del=3, base_lines=22, new_lines=34)
+- `Surfboard/ip/ai.conf` (ratio=0.8084, changed=135, add=131, del=4, base_lines=40, new_lines=167)
 - `Surfboard/non_ip/domestic_cdn.conf` (ratio=0.5455, changed=18, add=15, del=3, base_lines=21, new_lines=33)
+- `sing-box/ip/ai.json` (ratio=0.8012, changed=129, add=128, del=1, base_lines=34, new_lines=161)
 - `sing-box/ip/china_ip_ipv6.json` (ratio=1.1709, changed=4097, add=3175, del=922, base_lines=1246, new_lines=3499)
 - `sing-box/non_ip/domestic_cdn.json` (ratio=0.5185, changed=14, add=12, del=2, base_lines=17, new_lines=27)
 

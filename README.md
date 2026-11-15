@@ -20,30 +20,30 @@ another push-triggered workflow run.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `a44456d212468761ea3997413a55d3c4382a9a0b`
-- Upstream head: `8c151e959d643ffaf587e191bbab3b1b6fb9fdc1`
-- Time (UTC): 2026-11-14 22:27:13Z
+- Updated from: `615a486c8b58c7aa46d3c01a5edc1a25c96803f5`
+- Upstream head: `fd8aad6847929a1354271756dec8e3f1aa6f0168`
+- Time (UTC): 2026-11-15 18:53:07Z
 - Threshold: 0.5
 - Min changed lines: 10
 - Force update: false
-- Updated files: 18
+- Updated files: 21
 - Added files: 0
 - Upstream deleted but kept: 0
 - Skipped files (ratio>0.5 AND changed>=10): 13
 
 ### Skipped file list
 - `Clash/ip/ai.txt` (ratio=0.9406, changed=523, add=519, del=4, base_lines=41, new_lines=556)
-- `Clash/ip/china_ip_ipv6.txt` (ratio=1.1772, changed=4066, add=3134, del=932, base_lines=1252, new_lines=3454)
+- `Clash/ip/china_ip_ipv6.txt` (ratio=1.1771, changed=4068, add=3136, del=932, base_lines=1252, new_lines=3456)
 - `Clash/non_ip/domestic_cdn.txt` (ratio=0.5556, changed=20, add=17, del=3, base_lines=22, new_lines=36)
 - `LegacyClashPremium/ip/ai.txt` (ratio=0.9423, changed=523, add=519, del=4, base_lines=40, new_lines=555)
 - `LegacyClashPremium/non_ip/domestic_cdn.txt` (ratio=0.5714, changed=20, add=17, del=3, base_lines=21, new_lines=35)
 - `List/ip/ai.conf` (ratio=0.9406, changed=523, add=519, del=4, base_lines=41, new_lines=556)
-- `List/ip/china_ip_ipv6.conf` (ratio=1.1768, changed=4066, add=3134, del=932, base_lines=1253, new_lines=3455)
+- `List/ip/china_ip_ipv6.conf` (ratio=1.1767, changed=4068, add=3136, del=932, base_lines=1253, new_lines=3457)
 - `List/non_ip/domestic_cdn.conf` (ratio=0.5556, changed=20, add=17, del=3, base_lines=22, new_lines=36)
 - `Surfboard/ip/ai.conf` (ratio=0.9423, changed=523, add=519, del=4, base_lines=40, new_lines=555)
 - `Surfboard/non_ip/domestic_cdn.conf` (ratio=0.5714, changed=20, add=17, del=3, base_lines=21, new_lines=35)
 - `sing-box/ip/ai.json` (ratio=0.9417, changed=517, add=516, del=1, base_lines=34, new_lines=549)
-- `sing-box/ip/china_ip_ipv6.json` (ratio=1.1781, changed=4062, add=3132, del=930, base_lines=1246, new_lines=3448)
+- `sing-box/ip/china_ip_ipv6.json` (ratio=1.1780, changed=4064, add=3134, del=930, base_lines=1246, new_lines=3450)
 - `sing-box/non_ip/domestic_cdn.json` (ratio=0.6061, changed=20, add=18, del=2, base_lines=17, new_lines=33)
 
 <!-- END_GUARD_REPORT -->

@@ -20,30 +20,18 @@ another push-triggered workflow run.
 <!-- BEGIN_GUARD_REPORT -->
 ## Auto Update Guard Report
 
-- Updated from: `3d2274ac469911990cca25831291c270d142da19`
-- Upstream head: `ed108a122170f182242b35d7b32e17767888731a`
-- Time (UTC): 2026-11-19 07:29:00Z
+- Updated from: `9e07403c37dbc9a574e8e45285ca8782989fed38`
+- Upstream head: `838801f009734aa324e7d42d7b7b51561d1df5ba`
+- Time (UTC): 2026-11-19 14:57:13Z
 - Threshold: 0.5
 - Min changed lines: 10
-- Force update: false
-- Updated files: 18
+- Force update: true
+- Updated files: 38
 - Added files: 0
 - Upstream deleted but kept: 0
-- Skipped files (ratio>0.5 AND changed>=10): 13
+- Skipped files (ratio>0.5 AND changed>=10): 0
 
 ### Skipped file list
-- `Clash/ip/ai.txt` (ratio=0.9227, changed=394, add=390, del=4, base_lines=41, new_lines=427)
-- `Clash/ip/china_ip_ipv6.txt` (ratio=1.1768, changed=4073, add=3141, del=932, base_lines=1252, new_lines=3461)
-- `Clash/non_ip/domestic_cdn.txt` (ratio=0.5556, changed=20, add=17, del=3, base_lines=22, new_lines=36)
-- `LegacyClashPremium/ip/ai.txt` (ratio=0.9249, changed=394, add=390, del=4, base_lines=40, new_lines=426)
-- `LegacyClashPremium/non_ip/domestic_cdn.txt` (ratio=0.5714, changed=20, add=17, del=3, base_lines=21, new_lines=35)
-- `List/ip/ai.conf` (ratio=0.9227, changed=394, add=390, del=4, base_lines=41, new_lines=427)
-- `List/ip/china_ip_ipv6.conf` (ratio=1.1765, changed=4073, add=3141, del=932, base_lines=1253, new_lines=3462)
-- `List/non_ip/domestic_cdn.conf` (ratio=0.5556, changed=20, add=17, del=3, base_lines=22, new_lines=36)
-- `Surfboard/ip/ai.conf` (ratio=0.9249, changed=394, add=390, del=4, base_lines=40, new_lines=426)
-- `Surfboard/non_ip/domestic_cdn.conf` (ratio=0.5714, changed=20, add=17, del=3, base_lines=21, new_lines=35)
-- `sing-box/ip/ai.json` (ratio=0.9238, changed=388, add=387, del=1, base_lines=34, new_lines=420)
-- `sing-box/ip/china_ip_ipv6.json` (ratio=1.1777, changed=4069, add=3139, del=930, base_lines=1246, new_lines=3455)
-- `sing-box/non_ip/domestic_cdn.json` (ratio=0.6061, changed=20, add=18, del=2, base_lines=17, new_lines=33)
+(none)
 
 <!-- END_GUARD_REPORT -->
